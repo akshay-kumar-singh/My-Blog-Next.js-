@@ -1,0 +1,1189 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><title>Important NODE-EXPRESSS-MONGODB question</title><meta name="description" content="Node,express and mongodb is the most important programming language for backend development. You probably don&#x27;t know it well enough!"/><meta name="next-head-count" content="4"/><link rel="preload" href="/_next/static/css/27c77f74826b895a.css" as="style" crossorigin=""/><link rel="stylesheet" href="/_next/static/css/27c77f74826b895a.css" crossorigin="" data-n-g=""/><link rel="preload" href="/_next/static/css/2a4e0e5fbea47bea.css" as="style" crossorigin=""/><link rel="stylesheet" href="/_next/static/css/2a4e0e5fbea47bea.css" crossorigin="" data-n-p=""/><noscript data-n-css=""></noscript><script defer="" crossorigin="" nomodule="" src="/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script><script src="/_next/static/chunks/webpack-59c5c889f52620d6.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/framework-5429a50ba5373c56.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/main-e24b4219d45d8163.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/_app-07d4ecfb5744db4a.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/675-9fcdb742a32f88a7.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/877-19bb60487242ef63.js" defer="" crossorigin=""></script><script src="/_next/static/chunks/pages/posts/%5Bslug%5D-370610cb78735478.js" defer="" crossorigin=""></script><script src="/_next/static/zp6Cpz-VBs-8s_vSqyqjj/_buildManifest.js" defer="" crossorigin=""></script><script src="/_next/static/zp6Cpz-VBs-8s_vSqyqjj/_ssgManifest.js" defer="" crossorigin=""></script></head><body><div id="__next"><header class="main-navigation_header__SNiX9"><a href="/"><div class="logo_logo__U0Qbc">Akki Next Blog</div></a><nav><ul><li><a href="/posts">Posts</a></li><li><a href="/contact">Contact</a></li></ul></nav></header><main><article class="post-content_content__LoU6P"><header class="post-header_header__DsN4R"><h1>Important NODE-EXPRESSS-MONGODB question</h1><img alt="Important NODE-EXPRESSS-MONGODB question" loading="lazy" width="200" height="150" decoding="async" data-nimg="1" style="color:transparent" srcSet="/_next/image?url=%2Fimages%2Fposts%2FNODE-EXPRESS-MONGO%2Fbackend.png&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimages%2Fposts%2FNODE-EXPRESS-MONGO%2Fbackend.png&amp;w=640&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Fposts%2FNODE-EXPRESS-MONGO%2Fbackend.png&amp;w=640&amp;q=75"/></header><ol>
+<li>What is node js ?</li>
+</ol>
+<p>Node. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.</p>
+<ol start="2">
+<li>Features : -</li>
+</ol>
+<ul>
+<li>Single Threaded. Node. ...</li>
+<li>Asynchronous. Node. ...</li>
+<li>Event Driven. The event-driven concept is similar to the concept of a callback function in asynchronous programming. ...</li>
+<li>Open Source. Node. ...</li>
+<li>Performance. ...</li>
+<li>Highly Scalable. ...</li>
+<li>Node Package Manager(NPM) ...</li>
+<li>No Buffering.</li>
+</ul>
+<ol start="3">
+<li>Advantage &amp; disadvantage : -</li>
+</ol>
+<p>Its event-driven nature, microservices architecture, and MongoDB support allows businesses to grow and scale their products easily. However, be careful with heavy CPU bound tasks, as Node. js can reduce the performance of your application</p>
+<ol start="4">
+<li>Node vs javascript : -</li>
+</ol>
+<p>NodeJS is a Javascript runtime environment. Javascript is a computer programming language that is used to build scripts for websites. With the support of NodeJS, Javascript can be executed outside of the browser. Only browsers are capable of running Javascript.</p>
+<ol start="5">
+<li>Uses and benefits : -</li>
+</ol>
+<p>Node. js allows programmers to develop server-side JavaScript and frontend JavaScript codes with simplicity. One of the major node. js advantages is that it eliminates the need for two resource teams, saving time, money, and energy for overall project development.</p>
+<ol start="6">
+<li>Node vs angular : -</li>
+</ol>
+<p>The Angular features allow programmers to build interactive, client-side web applications, making the framework widely used by JavaScript developers nowadays. Node. js, on the other hand, is mainly used by JavaScript developers to create fast &amp; scalable networking and server-side applications.</p>
+<ol start="7">
+<li>Why node is single threaded : -</li>
+</ol>
+<p>Node. js is Single Threaded, i.e. it executes the code in a single sequence or direction. At a given time, only a single task/ call is executed. Asynchronous and Single-Threaded: Execution doesn&#x27;t wait for the current request to complete and moves to the next request/call</p>
+<ol start="8">
+<li>Different api function : -</li>
+</ol>
+<p><strong>The two types of API functions in Node.js are:</strong></p>
+<ul>
+<li>Asynchronous, non-blocking functions.</li>
+<li>Synchronous, blocking functions.</li>
+</ul>
+<ol start="9">
+<li>Synchronous and asynchronous function : -</li>
+</ol>
+<p>Asynchronous is a non-blocking architecture, so the execution of one task isn&#x27;t dependent on another. Tasks can run simultaneously. Synchronous is a blocking architecture, so the execution of each operation is dependent on the completion of the one before it.</p>
+<ol start="10">
+<li>Control flow function : -</li>
+</ol>
+<p>A control flow function is a lightweight, generic piece of code which runs in between several asynchronous function calls and which take care of the necessary housekeeping to: control the order of execution, collect data, limit concurrency and.</p>
+<ol start="11">
+<li>Event loop : -</li>
+</ol>
+<p>An event loop is an endless loop, which waits for tasks, executes them, and then sleeps until it receives more tasks. The event loop executes tasks from the event queue only when the call stack is empty i.e. there is no ongoing task. The event loop allows us to use callbacks and promises.</p>
+<p>Node. js has two types of threads: one Event Loop and k Workers. The Event Loop is responsible for JavaScript callbacks and non-blocking I/O, and a Worker executes tasks corresponding to C++ code that completes an asynchronous request, including blocking I/O and CPU-intensive work.</p>
+<ol start="12">
+<li>Order of execution in control flow statement : -</li>
+</ol>
+<p><strong>These are following the order in which control flow statements are used to process function calls:</strong></p>
+<ul>
+<li>Handling execution and queue.</li>
+<li>Data collection and storage.</li>
+<li>Concurrency handling and limiting.</li>
+<li>Execution of the next piece of code.</li>
+</ul>
+<p>Control flow in Node. js is typically managed using one of three methods: callbacks, promises, and async/await. 1. Callbacks: Callbacks are functions that are passed as arguments to other functions and are executed when that function completes its task.</p>
+<ol start="13">
+<li>Event based model : -</li>
+</ol>
+<p>Node. js uses event driven programming. It means as soon as Node starts its server, it simply initiates its variables, declares functions and then simply waits for event to occur. It is the one of the reason why Node. js is pretty fast compared to other similar technologies.</p>
+<ol start="14">
+<li>Ajax vs node : -</li>
+</ol>
+<p>Node. js allows code to be written on the server side. AJAX is apart of the front-end of website development. This means that you can use AJAX to send off requests to the server, but node can be written to process those requests and shoot back responses.</p>
+<ol start="15">
+<li>Framework : -</li>
+</ol>
+<p>Express.js Meteor</p>
+<p>Sails.js Angular</p>
+<p>Next.js</p>
+<ol start="16">
+<li>Test pyramid : -</li>
+</ol>
+<p>The test pyramid in Node. js is a conceptual model that guides software developers in structuring their test suites. It emphasizes a balanced distribution of different types of tests, such as unit, integration, and end-to-end tests.</p>
+<ol start="17">
+<li>Libuv : -</li>
+</ol>
+<p>Libuv is a library written in the programming language C that helps nodejs to improve efficiency while running tasks parallelly. However, nodejs already have async API&#x27;s. It uses Libuvs&#x27;s thread pools if async API is not available in nodejs and processes are blocking the operations.</p>
+<ol start="18">
+<li>Spawn vs fork method : -</li>
+</ol>
+<p>Fork creates a child process that is a copy of the parent process, while spawn creates a new process from scratch. Exec is typically used for short-lived processes, while fork and spawn are typically used for long-lived processes</p>
+<ol start="19">
+<li>Middleware : -</li>
+</ol>
+<p>The middleware in node. js is a function that will have all the access for requesting an object, responding to an object, and moving to the next middleware function in the application request-response cycle.</p>
+<p>The main purpose of the middleware is to modify the req and res objects, and then compile and execute any code that is required. It also helps to terminate the request-response session and call for the next middleware in the stack.</p>
+<ol start="20">
+<li>Global object : -</li>
+</ol>
+<p>Node. js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.</p>
+<ol start="21">
+<li>Assert : -</li>
+</ol>
+<p>The assert module provides a way of testing expressions. If the expression evaluates to 0, or false, an assertion failure is being caused, and the program is terminated. This module was built to be used internally by Node.</p>
+<p>The assert() method tests if a given expression is true or not. If the expression evaluates to 0, or false, an assertion failure is being caused, and the program is terminated. The assert() method is an alias of the assert. ok() method.</p>
+<ol start="22">
+<li>Stubs : -</li>
+</ol>
+<p>Stubs are functions or programs that affect the behavior of components or modules. Stubs are dummy objects for testing. Stubs implement a pre-programmed response.</p>
+<ol start="23">
+<li>Buffer class : -</li>
+</ol>
+<p>The Buffer class in Node. js is used to perform operations on raw binary data. Generally, Buffer refers to the particular memory location in memory. Buffer and array have some similarities, but the difference is array can be any type, and it can be resizable.</p>
+<p>In Node Js, buffers are used to store raw binary data. A buffer represents a</p>
+<p>chunk of memory that is allocated on our computer. The size of the buffer, once set, cannot be changed. A buffer is used to store bytes.</p>
+<ol start="24">
+<li>Why express js used ?</li>
+</ol>
+<p>Express is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It&#x27;s a layer built on the top of the Node js that helps manage servers and routes</p>
+<ol start="25">
+<li>Connect module : -</li>
+</ol>
+<p>Connect-flash module for Node. js allows the developers to send a message whenever a user is redirecting to a specified web-page.</p>
+<ol start="26">
+<li>Streams : -</li>
+</ol>
+<p>A stream is an abstract interface for working with streaming data in Node.js. The node:stream module provides an API for implementing the stream interface. There are many stream objects provided by Node.js. For instance, a request to an HTTP server and process.stdout are both stream instances.</p>
+<p>Streams are objects that allows developers to read/write data to and from a source in a continuous manner. There are four main types of streams in Node. js; readable, writable, duplex and transform. Each stream is an eventEmitter instance that emits different events at several intervals.</p>
+<ol start="27">
+<li>Use of repl : -</li>
+</ol>
+<p>Note: REPL stands for Read Evaluate Print Loop, and it is a programming language environment (basically a console window) that takes single expression as user input and returns the result back to the console after execution. The REPL session provides a convenient way to quickly test simple JavaScript code.</p>
+<ol start="28">
+<li>Tracing : -</li>
+</ol>
+<p>Tracing is a convenient way for developers to monitor and analyze application performance at runtime. Node. js offers a few options to generate and diagnose custom trace data in JavaScript applications. The built-in trace mechanism supports centralized tracing for not only V8 and Node. js core, but also userspace code.</p>
+<p>You can also use the flag --trace-warnings , which will give you the stack trace of where the warning is coming from whenever you encounter a warning. This warning is showing something that might not work in the future: a deprecation warning .</p>
+<ol start="29">
+<li>Packages.json : -</li>
+</ol>
+<p>Your package. json holds important information about the project. It contains human-readable metadata about the project (like the project name and description) as well as functional metadata like the package version number and a list of dependencies required by the application.</p>
+<ol start="30">
+<li>Difference between read file and create file : -</li>
+</ol>
+<p>readfile loads the whole file into the memory you pointed out, the fs. createReadStream, on the other hand, reads the entire file in chunks of sizes that you specified. The client will also receive the data faster with fs</p>
+<ol start="31">
+<li>Crypto module : -</li>
+</ol>
+<p>This module can be used for encrypting, decrypting, or hashing any type of data. This encryption and decryption basically help to secure and add a layer of authentication to the data. The main use case of the crypto module is to convert the plain readable text to an encrypted format and decrypt it when required</p>
+<ol start="32">
+<li>Passport : -</li>
+</ol>
+<p>The Passport is a node package, or library which we can install in any nodeJs project. The Passport provides the functionality for authentication in the app. Also, it provides different encryption strategies to encrypt user information, such as a password.</p>
+<ol start="33">
+<li>how to get file information in node js ?</li>
+</ol>
+<p>To get information about a file, we can use the fs. Stats object, which is returned by the fs. stat() , fs.</p>
+<ol start="34">
+<li>DNS lookup function : -</li>
+</ol>
+<p>lookup() Method. The dns. lookup() method resolves the host name (e.g., tutorialspoint.com) into the first found A IPv4) or AAAA (IPv6) record. The properties available under the options are optional.</p>
+<p>The node:dns module enables name resolution. For example, use it to look up IP addresses of host names. Although named for the Domain Name System (DNS), it does not always use the DNS protocol for lookups. dns. lookup() uses the operating system facilities to perform name resolution.</p>
+<ol start="35">
+<li>Eventemitter : -</li>
+</ol>
+<p>The EventEmitter class can be used to create and handle custom events module. The syntax to Import the events module are given below: Syntax: const EventEmitter = require(&#x27;events&#x27;); All EventEmitters emit the event newListener when new listeners are added and removeListener when existing listeners are removed.</p>
+<ol start="36">
+<li>Settimeout() vs setimmediate() : -</li>
+</ol>
+<p>setImmediate() and setTimeout() are similar, but behave in different ways depending on when they are called. setImmediate() is designed to execute a script once the current poll phase completes. setTimeout() schedules a script to be run after a minimum threshold in ms has elapsed.</p>
+<ol start="37">
+<li>Module exports purpose : -</li>
+</ol>
+<p>module. Exports is the object that is returned to the require() call. By module. exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method.</p>
+<ol start="38">
+<li>
+<p>What is the difference between asynchronous and non-blocking Nodejs?</p>
+<p>Non-Blocking: It refers to the program that does not block the execution of further operations. Non-Blocking methods are executed asynchronously. Asynchronously means that the program may not necessarily execute line by line</p>
+</li>
+<li>
+<p>Error first callback : -</p>
+</li>
+</ol>
+<p>Error-First Callback in Node. js is a function which either returns an error object or any successful data returned by the function. The first argument in the function is reserved for the error object. If any error has occurred during the execution of the function, it will be returned by the first argument.</p>
+<ol start="40">
+<li>Url module : -</li>
+</ol>
+<p>The URL module in Node. js is used when working with URLs in our Node. js file. It provides functions to access different parts of our URL. We use this module in web development when we work with URLs to make HTTP requests to external APIs and handle file paths.</p>
+<ol start="41">
+<li>Use of NODE_ENV : -</li>
+</ol>
+<p>NODE_ENV is an environment variable that stands for node environment in the express server. The NODE_ENV environment variable specifies the environment in which an application is running (usually, development or production)</p>
+<ol start="42">
+<li><strong>What are the various timing features of Node. js ?</strong></li>
+</ol>
+<ul>
+<li>callback: This parameter holds the function that to be executed.</li>
+<li>delay: This parameter holds the number of milliseconds to wait before calling the callback function.</li>
+<li>args: This parameter holds the optional parameter.</li>
+</ul>
+<ol start="43">
+<li><strong>Below is the list of the tasks which must be done asynchronously using the event loop:</strong></li>
+</ol>
+<ul>
+<li>I/O operations.</li>
+<li>Heavy computation.</li>
+<li>Anything requiring blocking.</li>
+</ul>
+<p>Asynchronous flow refers to the way Node. js handles and executes ensuring that the main program flow remains unblocked. As a server-side runtime environment built on Chrome&#x27;s V8 JavaScript engine, Node. js efficiently manages concurrent tasks and optimizes resource utilization.</p>
+<ol start="44">
+<li>Reactor pattern : -</li>
+</ol>
+<p>Note: Node. js is Asynchronous in nature. Reactor Pattern comprises of: Resources: They are shared by multiple applications for I/O operations, generally slower in executions. Synchronous Event De-multiplexer/Event Notifier: This uses Event Loop for blocking on all resources.</p>
+<ol start="45">
+<li>Frontend vs backend development : -</li>
+</ol>
+<p>Node. js can also be used with popular frontend frameworks like React, Vue, and Angular, to create scalable and high-performance applications. On the backend, Node. js is used to develop server-side applications that handle network requests, data processing, and database operations.</p>
+<ol start="46">
+<li>Major security implementation : -</li>
+</ol>
+<p>Establishing practices like validating user input, implementing authentication, limiting request sizes, and setting up logging and monitoring are good first steps to securing Node. js. For specific concerns about code injection attacks, here are five ways to prevent code injection in Node.</p>
+<ul>
+<li>Allow Using Secure Passwords Only. ...</li>
+<li>Secure Your Stored Passwords with Encryption. ...</li>
+<li>Limit the Number of Login Attempts per User per Unit of Time. ...</li>
+<li>Keep Your Node. ...</li>
+<li>Do Not Install Questionable Packages. ...</li>
+<li>Always Validate Input and Output Data. ...</li>
+<li>Always Replace Default Cookie Names.</li>
+</ul>
+<ol start="47">
+<li>ESLint : -</li>
+</ol>
+<p>ESLint is the dominant tool for linting Node. JS packages. It is a pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. It uses the AST (Abstract Syntax Tree) to evaluate patterns in code.</p>
+<p>One of the main benefits of using ESLint for software security is that it automates the detection of potential vulnerabilities. This can save you time and effort that would be spent manually reviewing your code, and can help you catch issues early on in the development process before they become a bigger problem.</p>
+<ol start="48">
+<li>Stubs : -</li>
+</ol>
+<p>Stubs are functions or programs that affect the behavior of components or modules. Stubs are dummy objects for testing. Stubs implement a pre-programmed response.</p>
+<ol start="49">
+<li>process.nexttick vs setimmediate in node js : -</li>
+</ol>
+<p>It is interesting to note that setImmediate adds callbacks to the event queue that are executed during the check phase, whereas process. nextTick executes callbacks immediately after the current phase.</p>
+<p>setImmediate() is processed in the Check handlers phase, while process. nextTick() is processed at the starting of the event loop and between each phase of the event loop.</p>
+<ol start="50">
+<li>How does NodeJS handle child threads?</li>
+</ol>
+<p>Node. js is a single-threaded runtime, which means that it does not have the ability to create child threads or to delegate work to them. However, it is designed to be highly scalable and can perform non-blocking I/O operations, allowing it to handle many concurrent connections without the need for child threads.</p>
+<p>It does not expose child threads and thread management methods to the developer. Technically, Node. js does spawn child threads for certain tasks such as asynchronous I/O, but these run behind the scenes and do not execute any application JavaScript code, nor block the main event loop.</p>
+<ol start="51">
+<li>Punycode : -</li>
+</ol>
+<p>Punycode is a character encoding scheme defined by RFC 3492 that is primarily intended for use in Internationalized Domain Names. Because host names in URLs are limited to ASCII characters only, Domain Names that contain non-ASCII characters must be converted into ASCII using the Punycode scheme.</p>
+<p>Punycode is a special encoding for converting Unicode characters in different languages to ASCII. It is used to correctly transcode a domain name containing non-Latin characters into addresses that comply with DNS standards.</p>
+<ol start="52">
+<li>Exit code of node : -</li>
+</ol>
+<p>The following is the list of exit codes in Node.js along with its descriptions:</p>
+<ul>
+<li><strong>Exit Code 0:</strong> Node.js normally ends with a status code of 0 whenever there are no more open async operations and the code doesn’t produce any uncaught exceptions.</li>
+<li><strong>Exit Code 1, Uncaught Fatal Exception:</strong> If an uncaught exception occurs and it is not resolved by a domain or a “uncaughtException” event handler, Node.js exits with an exit code of 1.</li>
+<li><strong>Exit Code 2:</strong> The exit code 2 is reserved by Bash for abuse of built-in features.</li>
+<li><strong>Exit Code 3, Internal JavaScript Parse Error:</strong> When internal code cannot be effectively interpreted, this exit code might be utilised in development. This is highly uncommon and often only occurs while Node.js is being developed.</li>
+<li><strong>Exit Code 4, Internal JavaScript Evaluation Failure:</strong> It is also applied in situations where the JavaScript code fails to return the function value during development.</li>
+<li><strong>Exit Code 5, Fatal Error:</strong> When a fatal, unrecoverable error occurred in V8, this exit code is utilised. Usually, stderr will produce a message with the prefix FATAL ERROR.</li>
+<li><strong>Exit Code 6, Non-function Internal Exception Handler:</strong> When an internal fatal exception handler function is set to a non-function and unable to be invoked, it is helpful.</li>
+<li><strong>Exit Code 7, Internal Exception Handler Run-Time Failure:</strong> This error code is used when the internal fatal exception handler code itself issued an error when attempting to handle the uncaught exception. This may occur, for instance, if a domain.on(‘error’) handler or a “uncaughtException” returns an error.</li>
+<li><strong>Exit Code 8:</strong> Exit code 8 in earlier versions of Node.js was sometimes used to denote an uncaught error.</li>
+<li><strong>Exit Code 9, Invalid Argument:</strong> This is employed when an unspecified option was given or when a value-required option was given without one..</li>
+<li><strong>Exit Code 10, Internal JavaScript Run-Time Failure:</strong> When the bootstrapping function was invoked, the JavaScript source code internal to Node.js’s bootstrapping procedure threw an error.</li>
+<li><strong>Exit Code 12, Invalid Debug Argument:</strong> The ports specified were either unavailable or invalid, yet the —debug, —inspect, and/or —debug-brk options were set.</li>
+<li><strong>Exit Code &gt;128, Signal Exits:</strong> Node.js’s exit code is 128 plus the signal code’s value if it gets a fatal signal like SIGKILL or SIGHUP. This is a common Unix practice since signal exits set the high-order bit before containing the signal code’s value and exit codes are often specified as 7-bit integers.</li>
+</ul>
+<ol start="53">
+<li>Is crypto available in node JS?</li>
+</ol>
+<p>Crypto is a module in Node. js which deals with an algorithm that performs data encryption and decryption. This is used for security purpose like user authentication where storing the password in Database in the encrypted form. Crypto module provides set of classes like hash, HMAC, cipher, decipher, sign, and verify.</p>
+<ol start="54">
+<li>how install update and delete a dependency in node js ?</li>
+</ol>
+<ul>
+<li>We can update the project dependencies using the update command: npm update.</li>
+<li>We can update any particular project dependency using the following command: npm update <!-- -->&lt;packagename&gt;</li>
+<li>We can uninstall a project dependency using the following command: npm uninstall &lt;package_name&gt;</li>
+</ul>
+<ol start="55">
+<li>Create simple server : -</li>
+</ol>
+<ul>
+<li>Step 1: Import HTTP module. ...</li>
+<li>Step 2: Create Variables For Host And Port. ...</li>
+<li>Step 3: Create A Server Process. ...</li>
+<li>Step 4: Implement the requestListener function. ...</li>
+<li>Step 5: Start And Test The HTTP Server.</li>
+</ul>
+<p>●</p>
+<p>var http = require(&#x27;http&#x27;); http.createServer(function (req, res) {</p>
+<p>res.writeHead(200, {&#x27;Content-Type&#x27;: &#x27;text/html&#x27;}); res.write(&#x27;Hello World!&#x27;);</p>
+<p>res.end();</p>
+<p>}).listen(8080);</p>
+<ol start="56">
+<li>Implement async : -</li>
+</ol>
+<p>The asynchronous function can be written in Node. js using &#x27;async&#x27; preceding the function name. The asynchronous function returns an implicit Promise as a result. The async function helps to write promise-based code asynchronously via the event loop</p>
+<ol start="57">
+<li>Types of http request : -</li>
+</ol>
+<p>HTTP (Hypertext Transfer Protocol) specifies a collection of request methods to specify what action is to be performed on a particular resource. The most commonly used HTTP request methods are GET, POST, PUT, PATCH, and DELETE.</p>
+<ol start="58">
+<li>Npm : -</li>
+</ol>
+<p>What is NPM? NPM is a package manager for Node.js packages, or modules if you like. www.npmjs.com hosts thousands of free packages to download and use. The NPM program is installed on your computer when you install Node.js. NPM is already ready to run on your computer!</p>
+<ol start="59">
+<li>Piping : -</li>
+</ol>
+<p>Piping in NodeJS is the process by which byte data from one stream is sent to another stream. What are streams? Streams in NodeJS are a sequence of bytes. When a program processes some data it needs to read all the data into memory and then process it and write out the data back into some location.</p>
+<ol start="60">
+<li>Flag used in read/write operation : -</li>
+</ol>
+<p>||||
+| :- | :- | :- |
+||r|Open file for reading. An exception occurs if the file does not exist.|
+|r+|Open file for reading and writing. An exception occurs if the file does not exist.||
+|rs|Open file for reading in synchronous mode.||
+|rs+|Open file for reading and writing, telling the OS to open it synchronously. See notes for &#x27;rs&#x27; about using this with caution.||
+|w|Open file for writing. The file is created (if it does not exist) or truncated (if it exists).||
+|wx|Like &#x27;w&#x27; but fails if path exists.||
+|w+|Open file for reading and writing. The file is created (if it does not exist) or truncated (if it exists).||</p>
+<p>|wx+|Like &#x27;w+&#x27; but fails if path exists.|
+| - | - |
+|a|Open file for appending. The file is created if it does not exist.|
+|ax|Like &#x27;a&#x27; but fails if path exists.|
+|a+|Open file for reading and appending. The file is created if it does not exist.|
+|ax+|Like &#x27;a+&#x27; but fails if path exists.|</p>
+<ol start="61">
+<li>Process model : -</li>
+</ol>
+<p>Contrary to the traditional web server model, NodeJS uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The NodeJS process model can be explained with three architectural features of NodeJS. Single-threaded event loop. Non-Blocking I/O Model. Event-driven and Asynchronous by default</p>
+<ol start="62">
+<li>Chaining : -</li>
+</ol>
+<p>In Node.js, chaining refers to the practice of calling multiple functions on the same object in a single statement.</p>
+<ol start="63">
+<li>CLI in node js : -</li>
+</ol>
+<p>Command-line interfaces (CLIs) built-in Node. js authorize automating repetitive tasks while leveraging the Node. js ecosystem. Package managers like npm and yarn are distributed and ingested across multiple platforms.</p>
+<p>js. We use command-line utilities every day, whether it be git, grep, awk, npm, or any other terminal app. CLIs are super useful and usually the fastest way to get something done.</p>
+<ol start="64">
+<li>require() method : -</li>
+</ol>
+<p>The require() function is a built-in CommonJS module function supported in Node.js that lets you include modules within your project. This is because, by default, Node.js treats JavaScript code as CommonJS modules.</p>
+<ol start="65">
+<li>Why node js use v8 : -</li>
+</ol>
+<p>V8 is a high-performance JavaScript engine developed by Google and used in Google Chrome, the open-source browser from Google. It was designed to improve the performance of web applications by compiling JavaScript into native machine code rather than interpreting it, which makes it faster</p>
+<ol start="66">
+<li>Template engine : -</li>
+</ol>
+<p>Template engine helps to create an HTML template with minimal code. Also, it can inject data into an HTML template on the client side and produce the final HTML. EJS is a simple templating language that is used to generate HTML markup with plain JavaScript. It also helps to embed JavaScript into HTML pages.</p>
+<ol start="67">
+<li>Express generator : -</li>
+</ol>
+<p>Express-generator is an all-in-one tool that allows you to quickly create a node-js application using the express library. Thanks to this generator, it will be possible to specify the template (view), the CSS preprocessor, etc.</p>
+<ol start="68">
+<li>Template literals : -</li>
+</ol>
+<p>Template literals are literals delimited with backtick ( ` ) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates</p>
+<ol start="69">
+<li>CSRF attack : -</li>
+</ol>
+<p>Cross-site request forgery attacks (CSRF or XSRF for short) works by an attacker gaining access to a victim&#x27;s browser — typically through a malicious link.</p>
+<p>js prevents the Cross-Site Request Forgery(CSRF) attack on an application. By using this module, when a browser renders up a page from the server, it sends a randomly generated string as a CSRF token. Therefore, when the POST request is performed, it will send the random CSRF token as a cookie.</p>
+<ol start="70">
+<li>Microservice : -</li>
+</ol>
+<p>Node. js Microservices are self-contained and independent of each other. This means that every service is developed, deployed, and scaled as a separate and standalone unit. They do not have any dependency on other services even though these services combine to form the application. This is called as loose-coupling.</p>
+<p>Node. js is ideal for building microservices due to its non-blocking I/O model, event-driven architecture, and lightweight design. As a result, it enables developers to create high-performance, real-time applications that can scale easily and remain resilient in the face of failure.</p>
+<ol start="71">
+<li>Docker hub : -</li>
+</ol>
+<p>Docker will create containerized applications that run on any type of environment that have all the dependencies within it. So setting up the development environment is just one command away. Docker has many use cases – this scenario is just one of them</p>
+<p>Docker Hub is a collaboration tool and a marketplace for community developers, open source contributors, and independent software vendors (ISVs) to distribute their code publicly. Docker Hub provides a consistent, secure, and trusted experience, making it easy for developers to access software they need.</p>
+<p><strong>EXPRESS-JS</strong></p>
+<ol>
+<li>What is express ?</li>
+</ol>
+<p>It is used for designing and building web applications quickly and easily. Web applications are web apps that you can run on a web browser. Since Express. js only requires javascript, it becomes easier for programmers and developers to build web applications and API without any effort.</p>
+<ol start="2">
+<li>Features : -</li>
+</ol>
+<p>Express. js can be used for various purposes, including building single-page applications, mobile applications, RESTful APIs, server-side rendering, real-time applications, and microservices. Express. js provides various key features, including routing, middleware, templates, error handling, security, and ease of use.</p>
+<ol start="3">
+<li>Advantage and disadvantage : -</li>
+</ol>
+<p><strong>Advantages of ExpressJS:</strong></p>
+<ul>
+<li>Minimal and Lightweight. Express. ...</li>
+<li>Easy to Learn and Use. Express. ...</li>
+<li>Middleware Support. One of the key features of Express. ...</li>
+<li>Routing. Express. ...</li>
+<li>Template Engines. Express. ...</li>
+<li>Database Support. Express. ...</li>
+<li>Scalability. Express. ...</li>
+<li>Lack of Structure and Convention. One of the primary limitations of using Express.</li>
+</ul>
+<p><strong>disadvantages of express. js?</strong></p>
+<ul>
+<li>Event-driven nature (callbacks)</li>
+<li>Code organization.</li>
+<li>Its not big on security.</li>
+<li>Its error messages are usually unhelpful.</li>
+</ul>
+<ol start="4">
+<li>how express handle routing ?</li>
+</ol>
+<p>You define routing using methods of the Express app object that correspond to HTTP methods; for example, app.get() to handle GET requests and app.post to handle POST requests. For a full list, see app.METHOD.</p>
+<ol start="5">
+<li>Middleware : -</li>
+</ol>
+<p>Middleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application&#x27;s request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.</p>
+<p><strong>An Express application can use the following types of middleware:</strong></p>
+<ul>
+<li>Application-level middleware.</li>
+<li>Router-level middleware.</li>
+<li>Error-handling middleware.</li>
+<li>Built-in middleware.</li>
+<li>Third-party middleware.</li>
+</ul>
+<p>●</p>
+<p>You can enable your custom middleware in your Express server by applying the built-in Express. js middleware, . use() . const express = require(&#x27;express&#x27;); const setCurrentUser = require(&#x27;./middleware/setCurrentUser.</p>
+<p>Middleware Chaining: Middleware can be chained from one to another, Hence creating a chain of functions that are executed in order. The last function sends the response back to the browser. So, before sending the response back to the browser the different middleware process the request.</p>
+<ol start="6">
+<li>how can you handle form data in express js ?</li>
+</ol>
+<p>Getting form data with the post method in Express. js. First, we need to install the express and body-parser packages. body-parser is used to process the data sent through an HTTP request.</p>
+<p>const express = require(&#x27;express&#x27;); const app = express();</p>
+<p>app.post(&#x27;/submit-form&#x27;, (req, res) =&gt; {</p>
+<p>const name = req.body.name;</p>
+<p>const email = req.body.email;</p>
+<p>//Do some processing and validation on the data //Store the data in a database or send it as an email</p>
+<p>res.send(&#x27;Form submitted successfully!&#x27;);</p>
+<p>});</p>
+<p>app.listen(3000, () =&gt; console.log(&#x27;Server running on port 3000&#x27;)); const bodyParser = require(&#x27;body-parser&#x27;); app.use(bodyParser.urlencoded({ extended: false }));</p>
+<ol start="7">
+<li>How can you handle static file ?</li>
+</ol>
+<p>To serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express. The root argument specifies the root directory from which to serve static assets. For more information on the options argument, see express.static.</p>
+<p>Serving static files in Expressjs: ExpressJS provides a built-in middleware function called express. static() that allows you to serve static files in your application. This middleware takes a directory path as an argument and serves any files in that directory at their respective URL paths.</p>
+<p>Using express. static() method, you can server static resources directly by specifying the folder name where you have stored your static resources. The following example serves static resources from the public folder under the root folder of your application.</p>
+<ol start="8">
+<li>purpose of next() in express js : -</li>
+</ol>
+<p>The next() function is a function in the Express router that, when invoked, executes the next middleware in the middleware stack. If the current middleware function does not end the request-response cycle, it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.</p>
+<p>The next() function returns the next item in an iterator. You can add a default return value, to return if the iterable has reached to its end.</p>
+<ol start="9">
+<li>how can you handle route parameter in express js ?</li>
+</ol>
+<p>Route parameters are accessible in the route handling function on the params property of the Request object. Recall from the previous tutorials that both a Request and Response object are passed as input of the route handling function by the Express.</p>
+<ol start="10">
+<li>how can you implement authentication ?</li>
+</ol>
+<p>Authentication is a process in which the credentials provided are compared to those on file in a database of authorized users&#x27; information on a local operating system or within an authentication server. If the credentials match, the process is completed and the user is granted authorization for access.</p>
+<p><strong>Implementing User Authentication in Express Apps</strong></p>
+<ul>
+<li>Step 1: Setting Up Development Environment. First, create a project folder and cd into it by running: mkdir user-authentication. ...</li>
+<li>Step 2: Connecting Your Application to a Database. ...</li>
+<li>Step 3: Creating User Model. ...</li>
+<li>Step 4: Implementing Sign-in and Sign-up Routes.</li>
+</ul>
+<ol start="11">
+<li>How can you handle error ?</li>
+</ol>
+<p>The simplest way of handling errors in Express applications is by putting the error handling logic in the individual route handler functions. We can either check for specific error conditions or use a try-catch block for intercepting the error condition before invoking the logic for handling the error.</p>
+<ol start="12">
+<li>What is route handler in Express JS?</li>
+</ol>
+<p>As a generic term, a route handler is code that is looking for a request to a specific incoming URL such as /login and often a specific HTTP verb such as POST and has specific code for handling that precise URL and verb. Some examples: Serve a specific web page.</p>
+<ol start="13">
+<li>how can you access request query parameters ?</li>
+</ol>
+<p>Your query parameters can be retrieved from the query object on the request object sent to your route. It is in the form of an object in which you can directly access the query parameters you care about. In this case Express handles all of the URL parsing for you and exposes the retrieved parameters as this object.</p>
+<p>We can access these route parameters on our req. params object using the syntax shown below. app. get(/:id, (req, res) =&gt; { const id = req.params.id; });</p>
+<ol start="14">
+<li>How can you send json response ?</li>
+</ol>
+<p>json() function sends a JSON response. This method sends a response (with the correct content-type) that is the parameter converted to a JSON string using the JSON. stringify() method. Parameters: The body parameter is the body that is to be sent in the response.</p>
+<p>To send data as a response to a client we typically use res. send() method, and to send static files we use the res. sendFile() method. In the same way, to send JSON data, the Express module has a method res</p>
+<ol start="15">
+<li>How can you handle file upload ?</li>
+</ol>
+<p>To handle file uploads in Express. js, you can use middleware such as Multer, a Node. js middleware used for handling multipart/form-data, which is mainly used for file uploads.</p>
+<ol start="16">
+<li>Difference between app.get() and app.use() : -</li>
+</ol>
+<p>app. use → It is generally used for introducing middlewares in your application and can handle all type of HTTP requests. app. get → It is only for handling GET HTTP requests.</p>
+<p>app. get is called when the HTTP method is set to GET, whereas app. use is called regardless of the HTTP method, and therefore defines a layer which is on top of all the other RESTful types which the express packages gives you access to.</p>
+<ol start="17">
+<li>How can you set response header ?</li>
+</ol>
+<p>Select the web site where you want to add the custom HTTP response header. In the web site pane, double-click HTTP Response Headers in the IIS section. In the actions pane, select Add. In the Name box, type the custom HTTP header name</p>
+<p>We can use the set method to set response headers before sending a response. app. listen(3000); Then when we make a request to / , we get that the Content-Length header is set to 100 and the Content-Type is set to text/plain .</p>
+<ol start="18">
+<li>Purpose of app.locals object : -</li>
+</ol>
+<p>The app. locals object defines the properties that are local variables inside an application. Once the value of app. locals property is set, it persists throughout the life of the application</p>
+<ol start="19">
+<li>how can you implement session management ?</li>
+</ol>
+<p>You can install and configure these middleware options using npm . Once installed, we can require it in our Node. js application and configure it as follows: const express = require(&#x27;express&#x27;); const session = require(&#x27;express-session&#x27;); const app = express(); app.</p>
+<ol start="20">
+<li>how can you handle cors ?</li>
+</ol>
+<p>Cross-origin resource sharing (CORS) allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.</p>
+<p>The easiest way to get CORS working in Express is by using the cors npm module. That&#x27;s it. CORS is now enabled. The Access-Control-Allow-Origin header determines which origins are allowed to access server resources over CORS (the * wildcard allows access from any origin).</p>
+<p>You need to configure the server to only allow one origin to serve, and block all the others. Using the same cors Node library, here&#x27;s how you would do it: const cors = require(&#x27;cors&#x27;) const corsOptions = { origin: &#x27;https://yourdomain.com&#x27;, } app. get(&#x27;/products/:id&#x27;, cors(corsOptions), (req, res, next) =&gt; { //... })</p>
+<ol start="21">
+<li>Route prefix : -</li>
+</ol>
+<p>A prefix is found within the routing table and composes part of the route. A route is a particular entry in the routing table. A route is composed of a prefix, and either a next hop IP, an exit interface, or both.</p>
+<ol start="22">
+<li>How can you implement rate limiting ?</li>
+</ol>
+<p><strong>To set up a rate limiter, we need to define two parameters:</strong></p>
+<ul>
+<li>The consumer ID: It is the unique identifier associated with a client consuming our API. The IP address is the most used, and we will use it in our case.</li>
+<li>Request per window: The maximum number of requests to execute in a specific timeframe.</li>
+</ul>
+<p>Express Rate Limit: Rate limiting prevents the same IP address from making too many requests that will help us prevent attacks like brute force. Required Dependency: npm install express-rate-limit. Project Setup: Run the following sets of commands to create a folder and initialize the project.</p>
+<p><strong>This approach to rate limiting is easy to build in a NodeJS-Express app, with just a few steps.</strong></p>
+<ul>
+<li>Step 1: Setting Up a Development Environment. First, you&#x27;ll need to create and initialize an Express application. ...</li>
+<li>Step 2: Creating an Express Application. ...</li>
+<li>Step 3: Creating Route Handlers. ...</li>
+<li>Step 4: Implementing Rate Limiting.</li>
+</ul>
+<ol start="23">
+<li>Purpose of view engine : -</li>
+</ol>
+<p>View engines allow us to render web pages using template files. These templates are filled with actual data and served to the client. There are multiple view engines, the most popular of which is Embedded Javascript (EJS).</p>
+<p>The Express application generator uses Jade as its default, but it also supports several others. See Template Engines (Express wiki) for a list of template engines you can use with Express. See also Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More. Note: Jade has been renamed to Pug.</p>
+<ol start="24">
+<li>how can you handle redirects ?</li>
+</ol>
+<p>The res. redirect() method in ExpressJS can be used to execute a redirect. The client is given navigation instructions by this function, which accepts a URL as a parameter.</p>
+<p>ExpressJS provides the facility to redirect to any URL with any status code. By default, the status code is set to 302. We can change the status code in the res. redirect() function by passing the new status code as the first parameter.</p>
+<ol start="25">
+<li>How can you access request headers ?</li>
+</ol>
+<p>In express, we can use request. headers[&#x27;header-name&#x27;], For example if you have set up a Bearer token in authorization header and want to retrieve the token, then you should write req. headers[&#x27;authorization&#x27;], and you will get the string containing &#x27;Bearer tokenString&#x27;.</p>
+<ol start="26">
+<li>how can you enable compression ?</li>
+</ol>
+<p>you can use the module in your application after you initialize your server, like with Express. js: const compression = require(&#x27;compression&#x27;); const express = require(&#x27;express&#x27;); const app = express(); // compress all responses app. use(compression()); app</p>
+<p>Compression encodes information into a smaller size than the original, decreasing the bandwidth usage of an application and providing faster download speeds for clients.</p>
+<ol start="27">
+<li>Purpose of app.route method : -</li>
+</ol>
+<p>The app. route() function returns an instance of a single route, which you can then use to handle HTTP verbs with optional middleware. Use app. route() to avoid duplicate route names (and thus typo errors)</p>
+<ol start="28">
+<li>how can you implement input validation ?</li>
+</ol>
+<p><strong>How to Validate and Sanitize an ExpressJS Form</strong></p>
+<ul>
+<li>Install the express-validator library for use with an ExpressJS server.</li>
+<li>Validate user input from a login form.</li>
+<li>Sanitize user input from a login form.</li>
+<li>Return validation errors to the user to improve the UX.</li>
+</ul>
+<p>Steps to use express-validator to implement the logic:</p>
+<p>Install express-validator middleware. Create a validator. js file to code all the validation logic. Validate input by validateInputField: check(input field name) and chain on the validation equals() with &#x27;</p>
+<ol start="29">
+<li>How do you handle cookies : -</li>
+</ol>
+<p><strong>Express.js Cookies Example</strong></p>
+<ul>
+<li>var express = require(&#x27;express&#x27;);</li>
+<li>var cookieParser = require(&#x27;cookie-parser&#x27;);</li>
+<li>var app = express();</li>
+<li>app.use(cookieParser());</li>
+<li>app.get(&#x27;/cookieset&#x27;,function(req, res){</li>
+<li>res.cookie(&#x27;cookie_name&#x27;, &#x27;cookie_value&#x27;);</li>
+<li>res.cookie(&#x27;company&#x27;, &#x27;javatpoint&#x27;);</li>
+<li>res.cookie(&#x27;name&#x27;, &#x27;sonoo&#x27;);</li>
+</ul>
+<p>var cookieSession = require(&#x27;cookie-session&#x27;) var express = require(&#x27;express&#x27;) var app = express() app. use(cookieSession({ name: &#x27;session&#x27;, keys: [&#x27;key1&#x27;, &#x27;key2&#x27;] })) // Update a value in the cookie so that the set-cookie will be sent. // Only changes every minute so that it&#x27;s not sent with every request.</p>
+<ol start="30">
+<li>How do you implement Caching : -</li>
+</ol>
+<p><strong>Create an Express Node JS application</strong></p>
+<ul>
+<li>npx express expressNodeCaching --hbs. BASIC.</li>
+<li>npm i. Bash.</li>
+<li>npm i node-cache npm i isomorphic-fetch. Bash.</li>
+<li>app.use(&#x27;/getCached&#x27;, require(&#x27;./routes/getCached&#x27;)); Bash.</li>
+<li>new nodecache({ stdTTL : 3599}); BASIC.</li>
+<li>npm start. BASIC.</li>
+</ul>
+<ol start="31">
+<li>Concept of view rendering : -</li>
+</ol>
+<p>The function used to render an HTML view and to send the rendered HTML data to the client is known as the res. render() function. In Express, this function has two parameters in it, that are, Locals: It is an object whose properties would define the view. Callback: A callback function as an optional parameter.</p>
+<p>Express has two methods to render views: app. render() , which is used to render the view and then pass the HTML to a callback function, and the more common res. render() , which renders the view locally and sends the HTML as a response.</p>
+<ol start="32">
+<li>How can you implement logging ?</li>
+</ol>
+<p><strong>Process a User Login Form with ExpressJS</strong></p>
+<ul>
+<li>Create an example HTML login form.</li>
+<li>Set up GET routes using ExpressJS.</li>
+<li>Set up a POST route to get form data into Node.</li>
+<li>Learn about route paths and handlers.</li>
+</ul>
+<p>morgan middleware</p>
+<p>The morgan middleware can be used as many times as needed, enabling combinations like: Log entry on request and one on response. Log all requests to file, but errors to console.</p>
+<ol start="33">
+<li>How can you handle async await : -</li>
+</ol>
+<p>Async/Await is used to work with promises in asynchronous functions. It is basically syntactic sugar for promises. It is just a wrapper to restyle code and make promises easier to read and use. It makes asynchronous code look more like synchronous/procedural code, which is easier to understand. To use async/await, you need to use the async keyword when you define a request handler. (Note: These request handlers are also called “controllers”. I prefer calling them request handlers because “request handlers” is more explicit). Once you have the async keyword, you can await something immediately in your code</p>
+<ol start="34">
+<li>Purpose of express.router() : -</li>
+</ol>
+<p>The express. Router() function is used to create a new router object. This function is used when you want to create a new router object in your program to handle requests. Multiple requests can be easily differentiated with the help of the Router() function in Express.</p>
+<ol start="35">
+<li>Websocket communication : -</li>
+</ol>
+<p>WebSocket is a full-duplex, bidirectional protocol as opposed to HTTP. Since it is a stateful protocol, it will maintain a connection between the client and server until one of them decides to break it. Because the connection is constant, real-time communication between the client and the server is possible</p>
+<p>To open a websocket connection, we need to create new WebSocket using the special protocol ws in the url: let socket = new WebSocket ( &quot;ws://javascript.info&quot; ) ; There&#x27;s also encrypted wss:// protocol. It&#x27;s like HTTPS for websockets.</p>
+<p>In theory, a server can handle up to 65,536 sockets per single IP address.</p>
+<ol start="36">
+<li>Input sanitizer : -</li>
+</ol>
+<p>Input Sanitization with Validator.</p>
+<p>Validator. js is a library that provides various string validation and sanitization functions. We can leverage it to sanitize user input and remove potentially harmful characters. // Example: Sanitizing user input with Validator.js const validator = require(&#x27;validator&#x27;); app.</p>
+<p><strong>How to Validate and Sanitize an ExpressJS Form</strong></p>
+<ul>
+<li>Install the express-validator library for use with an ExpressJS server.</li>
+<li>Validate user input from a login form.</li>
+<li>Sanitize user input from a login form.</li>
+<li>Return validation errors to the user to improve the UX.</li>
+</ul>
+<ol start="37">
+<li>RBAC : -</li>
+</ol>
+<p>Role-based access control (RBAC) is a security approach that restricts network access and assigns permissions to users based on their role within an organization</p>
+<p><strong>How to Implement RBAC in 8 Steps</strong></p>
+<ul>
+<li>Audit your current status. The first thing you need to do is audit your current status. ...</li>
+<li>Define roles. ...</li>
+<li>Query-level implementation. ...</li>
+<li>Interface-level implementation. ...</li>
+<li>Component-level implementation. ...</li>
+<li>Testing roles and implementation. ...</li>
+<li>Role assignment. ...</li>
+<li>Monitoring and auditing.</li>
+</ul>
+<ol start="38">
+<li>Session timeout : -</li>
+</ol>
+<p>The session timeout determines the time a user can remain idle before the session is terminated and the user must log in again. The session time out includes administrators logged in through the portal service.</p>
+<p>To expire the session after 1 min of inactivity in the express-session of Express. js we use expires: 60000 in the middleware function.</p>
+<p>listen() to make sure our server is running. Here we set different options in session. In the cookie. maxAge is used to determine the specific time after which the session expires due to inactivity, and the secret is used to store the secret key for the session.</p>
+<ol start="39">
+<li>SSR : -</li>
+</ol>
+<p>Server-side rendering (SSR) is a popular technique for rendering a normally client-side-only single-page app (SPA) on the server and then sending a fully rendered page to the client. The client&#x27;s JavaScript bundle can then take over and the SPA can operate as normal.</p>
+<p>With server-side rendering, you need a server side application which handles the initial rendering of your React application. The server application will import your React applications root component and render it into a HTML document which is then returned to the client.</p>
+<ol start="40">
+<li>Throttling : -</li>
+</ol>
+<p>Throttling is the process of limiting the number of requests you (or your authorized developer) can submit to a given operation in a given amount of time.</p>
+<p>Throttling is often used to manage API traffic and prevent overloading—by ensuring that a server can handle requests from multiple clients without slowing down or crashing.</p>
+<ol start="41">
+<li>Api versioning : -</li>
+</ol>
+<p>API versioning is a crucial aspect of developing and maintaining RESTful APIs, as it allows developers to introduce new features, fix bugs, and make changes without breaking the existing functionality for clients.</p>
+<p><strong>There are 5 main ways to version REST APIs:</strong></p>
+<ul>
+<li>Versioning using URI Path. URI Path versioning strategy puts the version number in the path of the URI. ...</li>
+<li>Versioning using Query Parameters. ...</li>
+<li>Versioning using Custom Request Headers. ...</li>
+<li>Versioning via Media type. ...</li>
+<li>Versioning using multiple strategies.</li>
+</ul>
+<ol start="42">
+<li>Pagination : -</li>
+</ol>
+<p>Pagination is where a user can use links such as “next”, “previous”, and page numbers to navigate between pages that display one page of results at a time. Pagination in Node. js involves splitting a large dataset into smaller chunks, known as pages, and displaying them one page at a time.</p>
+<p>After installing the express and mongoose packages, we can build a primary express server and connect to our MongoDB database, gradually making the pagination. const express = require(&quot;express&quot;); const mongoose = require(&quot;mongoose&quot;); const app = express(); mongoose . connect(&quot;mongodb://localhost:27017/pgtest&quot;)</p>
+<ol start="43">
+<li>Can WebSocket and HTTP run on same port?</li>
+</ol>
+<p>Nginx will let you receive both your HTTP and websocket traffic on a single domain and port, and then forward each one on to the correct app. It can do this because websockets starts out as a regular HTTP GET request</p>
+<ol start="44">
+<li>SSE : -</li>
+</ol>
+<p>Server-Sent Events (SSE) is a Web standard that allows a server application to send data to the client. Concretely, a browser can subscribe to a stream of events generated by a server, receiving updates whenever a new event occurs. This feature makes it possible to build a more reactive application</p>
+<p>The server-sent events streaming can be started by the client&#x27;s GET request to Server. Accept: text/event-stream indicates the client waiting for event stream from the server, Cache-Control: no-cache indicates that disabling the caching and Connection: keep-alive indicates the persistent connection.</p>
+<ol start="45">
+<li>how do you handle file download ?</li>
+</ol>
+<p>download() function which takes two parameters the path of the file and a function to handle if any error occurs. Downloading multiple files as a zipped folder for this we would use the “express-zip” npm package which creates a zipped folder using the zip() function which takes an array of objects as a parameter.</p>
+<ol start="46">
+<li>Convert json int string : -</li>
+</ol>
+<p>The JSON.stringify() static method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified</p>
+<ol start="47">
+<li>Create http server using express : -</li>
+</ol>
+<p>const express = require(&#x27;express&#x27;)</p>
+<p>const app = express()</p>
+<p>const port = 3000</p>
+<p>app.get(&#x27;/&#x27;, (req, res) =&gt; {</p>
+<p>res.send(&#x27;Hello World!&#x27;)</p>
+<p>})</p>
+<p>app.listen(port, () =&gt; {</p>
+<p>console.log(<pre style="color:#c5c8c6;text-shadow:0 1px rgba(0, 0, 0, 0.3);font-family:Inconsolata, Monaco, Consolas, &#x27;Courier New&#x27;, Courier, monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;padding:1em;margin:.5em 0;overflow:auto;border-radius:0.3em;background:#1d1f21"><code style="color:#c5c8c6;text-shadow:0 1px rgba(0, 0, 0, 0.3);font-family:Inconsolata, Monaco, Consolas, &#x27;Courier New&#x27;, Courier, monospace;direction:ltr;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none"><span>Example app listening on port ${port}</span></code></pre>) })</p>
+<ol start="48">
+<li>Templates : -</li>
+</ol>
+<p>Template engine is a part of Express that enables us to use static files in our applications. Template engine converts variables to values and changes the template to HTML files to send to the client. The default template engine of Express is Jade, but EJS is the most commonly used engine</p>
+<p><strong>—MONGO-DB—</strong></p>
+<ol>
+<li>WHAT IS MONGODB ?</li>
+</ol>
+<p>MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. As a document database, MongoDB makes it easy for developers to store structured or unstructured data. It uses a JSON-like format to store documents.</p>
+<ol start="2">
+<li>Features : -</li>
+</ol>
+<ul>
+<li>Support ad hoc queries. ...</li>
+<li>Indexing. ...</li>
+<li>Replication. ...</li>
+<li>Duplication of data. ...</li>
+<li>Load balancing. ...</li>
+<li>Supports map reduce and aggregation tools.</li>
+<li>Uses JavaScript instead of Procedures.</li>
+<li>It is a schema-less database written in C++.</li>
+</ul>
+<ol start="3">
+<li>Advantage and disadvantage : -</li>
+</ol>
+<ul>
+<li>Advantages of MongoDB. Performance Levels. High Speed and Higher Availability. Simplicity. Easy Environment and a Quick Set-up. Flexibility. Sharding. Scalability. ...</li>
+<li>Disadvantages of MongoDB. Transactions. Joins. Indexing. Limited Data Size and Nesting. Duplicates. High Memory Usage.</li>
+</ul>
+<ol start="4">
+<li>What is a document ?</li>
+</ol>
+<p>A record in MongoDB is a document, which is a data structure composed of field and value pairs. MongoDB documents are similar to JSON objects. The values of fields may include other documents, arrays, and arrays of documents.</p>
+<ol start="5">
+<li>Collection : -</li>
+</ol>
+<p>A collection is a grouping of MongoDB documents. Documents within a collection can have different fields. A collection is the equivalent of a table in a relational database system. A collection exists within a single database.</p>
+<ol start="6">
+<li>Replica set : -</li>
+</ol>
+<p>A replica set in MongoDB is a group of mongod processes that maintain the same data set. Replica sets provide redundancy and high availability, and are the basis for all production deployments. This section introduces replication in MongoDB as well as the components and architecture of replica sets.</p>
+<ol start="7">
+<li>Primary replica set : -</li>
+</ol>
+<p>The primary is the only member in the replica set that receives write operations. MongoDB applies write operations on the primary and then records the operations on the primary&#x27;s oplog. Secondary members replicate this log and apply the operations to their data sets.</p>
+<p>You can force a replica set member to become primary by giving it a higher members[n]. priority value than any other member in the set. Optionally, you also can force a member never to become primary by setting its members[n]. priority value to 0 , which means the member can never seek election as primary.</p>
+<ol start="8">
+<li>Secondary replica set : -</li>
+</ol>
+<p>A secondary maintains a copy of the primary&#x27;s data set. To replicate data, a secondary applies operations from the primary&#x27;s oplog to its own data set in an asynchronous process. [1] A replica set can have one or more secondaries.</p>
+<ol start="9">
+<li>Replica set oplog : -</li>
+</ol>
+<p>The oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases. Unlike other capped collections, the oplog can grow past its configured size limit to avoid deleting the majority commit point .</p>
+<ol start="10">
+<li>Sharding : -</li>
+</ol>
+<p>Sharding is a method for distributing data across multiple machines. MongoDB uses sharding to support deployments with very large data sets and high throughput operations. Database systems with large data sets or high throughput applications can challenge the capacity of a single server.</p>
+<ol start="11">
+<li>
+<p>What is the difference between sharding and partitioning in MongoDB?</p>
+<p>Sharding and partitioning are both about breaking up a large data set into smaller subsets. The difference is that sharding implies the data is spread across multiple computers while partitioning does not. Partitioning is about grouping subsets of data within a single database instance.</p>
+</li>
+<li>
+<p>Indexing : -</p>
+</li>
+</ol>
+<p>Indexes are data structures that support the efficient execution of queries in MongoDB. They contain copies of parts of the data in documents to make queries more efficient. Without indexes, MongoDB must scan every document in a collection to find the documents that match each query.</p>
+<ol start="13">
+<li>Types of indexing : -</li>
+<li><strong>Single field Index:</strong> A single field index means index on a single field of a document. This index is helpful for fetching data in ascending as well as descending order.</li>
+<li><strong>Compound Index:</strong> This is a user-defined index supported in MongoDB where multiple fields can be indexed. To create a compound index, the query is db.collection.createIndex( { &lt;fieldname1: 1/-1, fieldname2: 1/-1, … }). Here, the compound index query is similar to a normal index query but with multiple fields.</li>
+<li><strong>MultiKey Indexing:</strong> Now this is one indexing that works on values stored in an array. Here, for each element in an array, MongoDB creates an index.</li>
+<li><strong>Text Indexing:</strong> For the purpose of searching the string content or an array of string, ina collection, indexing over the test is supported in MongoDB.</li>
+<li><strong>Hashed Index:</strong> Using the hashes of the indexed fields’ values, Hashed Indexing in MongoDB is achieved. MongoDB also supports sharding based on the hash. The aim is to reduce the size of the index. Range queries are not supported here.</li>
+<li>Mapreduce : -</li>
+</ol>
+<p>Map-reduce is a data processing paradigm for condensing large volumes of data into useful aggregated results. To perform map-reduce operations, MongoDB provides the mapReduce database command.</p>
+<p>MapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.</p>
+<ol start="15">
+<li>Aggregation and aggregation pipeline : -</li>
+</ol>
+<p>Aggregation is a way of processing a large number of documents in a collection by means of passing them through different stages. The stages make up what is known as a pipeline. The stages in a pipeline can filter, sort, group, reshape and modify documents that pass through the pipeline.</p>
+<p>The aggregation pipeline refers to a specific flow of operations that processes, transforms, and returns results. In a pipeline, successive operations are informed by the previous result. Let&#x27;s take a typical pipeline: Input -&gt; $match -&gt; $group -&gt; $sort -&gt; output.</p>
+<p>Aggregation operations allow you to group, sort, perform calculations, analyze data, and much more. Aggregation pipelines can have one or more &quot;stages&quot;. The order of these stages are important. Each stage acts upon the results of the previous stage.</p>
+<ol start="16">
+<li>Update vs save : -</li>
+</ol>
+<p>MongoDB&#x27;s update() and save() methods are used to update document into a collection. The update() method updates the values in the existing document while the save() method replaces the existing document with the document passed in save() method.</p>
+<ol start="17">
+<li>gridFs : -</li>
+</ol>
+<p>GridFS is the MongoDB specification for storing and retrieving large files such as images, audio files, video files, etc. It is kind of a file system to store files but its data is stored within MongoDB collections. GridFS has the capability to store files even greater than its document size limit of 16MB.</p>
+<ol start="18">
+<li>Primary vs secondary key : -</li>
+</ol>
+<p>A primary key is the field in a database that is the primary key used to uniquely identify a record in a database. A secondary key is an additional key, or alternate key, which can be use in addition to the primary key to locate specific data.</p>
+<ol start="19">
+<li>how does mongodb ensure data consistency ?</li>
+</ol>
+<p>If the primary member fails, MongoDB preserves consistency by suspending writes until a new primary is elected. Any writes to the failed primary that have not been replicated are rolled back when it returns to the cluster as a secondary.</p>
+<p>MongoDB allows multiple clients to read and write the same data. To ensure consistency, MongoDB uses locking and concurrency control to prevent clients from modifying the same data simultaneously. Writes to a single document occur either in full or not at all, and clients always see consistent data.</p>
+<ol start="20">
+<li>how does mongodb ensure high availiability of data ?</li>
+</ol>
+<p>Replication is performed in MongoDB to maintain data redundancy and high availability. It is performed by creating multiple copies of your data across multiple servers. Replication is achieved by the replica sets that contain primary and secondary nodes.</p>
+<ol start="21">
+<li>how does mongodb handle schema changes ?</li>
+</ol>
+<p>You can use MongoDB&#x27;s flexible schema model, which supports differently shaped documents in the same collection, to gradually update your collection&#x27;s schema. As you update your schema model, the Schema Versioning pattern allows you to track these updates with version numbers.</p>
+<ol start="22">
+<li>How transactions are handled in MongoDB?</li>
+</ol>
+<p>Transactions use the transaction-level write concern to commit the write operations. Write operations inside transactions must be issued without explicit write concern specification and use the default write concern. At commit time, the writes are then commited using the transaction-level write concern.</p>
+<p>The locks in MongoDB are acquired at the transaction level. However only write operations will lock the associated document. Read operations will not lock them. Hence the locks will be released only when the transaction is completed.</p>
+<ol start="23">
+<li>Role of mongodb process : -</li>
+</ol>
+<p>MongoDB grants access to data and commands through role-based authorization and provides built-in roles that provide the different levels of access commonly needed in a database system. You can additionally create user-defined roles. A role grants privileges to perform sets of actions on defined resources.</p>
+<p>What is the role of the Mongod process in MongoDB?</p>
+<p>mongod is the primary daemon process for the MongoDB system. It handles data requests, manages data format, and performs background management operations. This document provides a complete overview of all command line options for mongod . These options are primarily useful for testing purposes.</p>
+<ol start="24">
+<li>Role of mongodb shell : -</li>
+</ol>
+<p>The mongo shell is an interactive JavaScript interface to MongoDB. You can use the mongo shell to query and update data as well as perform administrative operations.</p>
+<ol start="25">
+<li>Role of mongodb handle security : -</li>
+</ol>
+<p>MongoDB offers built-in security controls for all your data – with databases managed in a customer environment or MongoDB Atlas, a fully-managed cloud service. MongoDB enables enterprise-grade security features and simplifies deploying and managing your databases.</p>
+<p><strong>MongoDB Security Best Practices</strong></p>
+<ul>
+<li>Create Separate Security Credentials. To enable authentication, create login credentials for each user or process that accesses MongoDB. ...</li>
+<li>Use Role-Based Access Control. ...</li>
+<li>Encrypt Your Data. ...</li>
+<li>Use the Official MongoDB Packages. ...</li>
+<li>Auditing and Logs. ...</li>
+<li>Apply MongoDB Security Fixes.</li>
+</ul>
+<ol start="26">
+<li>Join vs lookup : -</li>
+</ol>
+<p>MongoDB Joins are performed by Lookup. It performs a Left Outer Join to two or more Collections. But Lookup is only permitted in Aggregate operations. This is like a pipeline that performs query, filter and group operations.</p>
+<p>Generaly, sorted joiner is more effective on flat files than lookup, because sorted joiner uses merge join and cashes less rows. Lookup cashes always whole file. If the file is not sorted, it can be comparable.</p>
+<ol start="27">
+<li>Backup and recovery : -</li>
+</ol>
+<p>The MongoDB Backup and Restore Tool allows you to encapsulate the state of a cluster and return to that state at any time. This helps protect you from data loss, as you can restore a database to a MongoDB instance using a created copy of that instance.</p>
+<ul>
+<li><a href="https://hevodata.com/learn/mongodump/#Step1">Step 1: Create Direct Backups Using Mongodump</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step2">Step 2: Backup a Remote MongoDB Instance</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step3">Step 3: Backup a Secure MongoDB Instance</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step4">Step 4: Select Databases &amp; Collections</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step5">Step 5: Change the Backup Directory</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step6">Step 6: Create an Archive File</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step7">Step 7: Compress the MongoDB Backup</a></li>
+<li><a href="https://hevodata.com/learn/mongodump/#Step8">Step 8: Restore Database</a></li>
+</ul>
+<p>●</p>
+<ol start="28">
+<li>Some alternative of mongodb : -</li>
+</ol>
+<p>Some of the best MongoDB alternatives include Redis, Apache Cassandra, RethinkDB, DynamoDB, OrientDB, CouchDB, and ArangoDB.</p>
+<ol start="29">
+<li>How does mongodb store data ?</li>
+</ol>
+<p>MongoDB stores data objects in collections and documents instead of the tables and rows used in traditional relational databases. Collections comprise sets of documents, which are equivalent to tables in a relational database. Documents consist of key-value pairs, which are the basic unit of data in MongoDB.</p>
+<ol start="30">
+<li>how mongodb different from sql and better than mysql:</li>
+</ol>
+<p>MongoDB is a more dynamic and complicated choice that is appropriate for hierarchical data because of its fundamental properties, as opposed to a SQL Database, which is still more predetermined and appropriate for other types of data storage. Hence this is the reason MongoDB outshines the SQL database.</p>
+<p>Compared to MySQL, MongoDB is easier to work with. Since there is no need to define schemas beforehand, it gives a chance to users with minimal technical knowledge to immediately start storing data in it. You can use the database with various programming languages, including C, C# and .</p>
+<ol start="31">
+<li>Different data models : -</li>
+</ol>
+<p>MongoDB provides two types of data models: — Embedded data model and Normalized data model.</p>
+<ol start="32">
+<li>Horizontal and vertical scaling : -</li>
+</ol>
+<p>Horizontal scaling involves adding additional servers and partitioning the system dataset and load over those servers. Vertical scaling involves expanding the resources used by a single server/replica set.</p>
+<ol start="33">
+<li>Replication and sharding : -</li>
+</ol>
+<p>In simple terms, MongoDB replication is the process of creating a copy of the same data set in more than one MongoDB server. This can be achieved by using a Replica Set. A replica set is a group of MongoDB instances that maintain the same data set and pertain to any mongod process.</p>
+<p>Replication can be simply understood as the duplication of the data-set whereas sharding is partitioning the data-set into discrete parts. By sharding, you divided your collection into different parts. Replicating your database means you make imagers of your data-set.1</p>
+<ol start="34">
+<li>What is the _id field type in MongoDB?</li>
+</ol>
+<p>Architecturally, by default the _id field is an ObjectID, one of MongoDB&#x27;s BSON types. The ObjectID is the primary key for the stored document and is automatically generated when creating a new document in a collection</p>
+<ol start="35">
+<li>what are some utilities for backup and restoring ?</li>
+</ol>
+<p>MongoDB supplies two utilities to manage logical backups: Mongodump and Mongorestore. The Mongodump command dumps a backup of the database into the “. bson” format, and this can be restored by providing the logical statements found in the dump file to the databases.</p>
+<ol start="36">
+<li>Role of profiler : -</li>
+</ol>
+<p>The database profiler collects detailed information about Database Commands executed against a running mongod instance. This includes CRUD operations as well as configuration and administration commands. The profiler writes all the data it collects to a system.</p>
+<ol start="37">
+<li>can we use regular expression in mongodb ?</li>
+</ol>
+<p>MongoDB provides the functionality to search a pattern in a string during a query by writing a regular expression. A regular expression is a generalized way to match patterns with sequences of characters. MongoDB uses Perl compatible regular expressions(PCRE) version 8.42 along with UTF-8 support.</p>
+<ol start="38">
+<li>difference between $all and $in operator : -</li>
+</ol>
+<p>$all operator retrieves all the documents which contains the subset of the values we pass. The subset might be in any order. $in operator retrieves all the documents which contains the either of the values we pass.</p>
+<p>$all operator retrieves all the documents which contains the subset of the values we pass. The subset might be in any order. $in operator retrieves all the documents which contains the either of the values we pass.</p>
+<p>The $in operator is used to select documents in which the field&#x27;s value equals any of the given values in the array. You can use this operator in methods like find(), update(), etc., according to your requirements.</p>
+<ol start="39">
+<li>Add more slaves to replica : -</li>
+</ol>
+<ul>
+<li>Prepare the Data Directory: This is about creating a data directory for the new member and manually copying data to it from an existing member.</li>
+<li>Add a Member to an Existing Replica Set: 2.1 Start the new member&#x27;s mongod instance, pointing to the new data directory. 2.2 Connect to the replica-set&#x27;s primary.</li>
+</ul>
+<p>●</p>
+<ol start="40">
+<li>Some application of mongodb : -</li>
+</ol>
+<p>It is used to store a massive amount of demographic and biometric data. For example, India&#x27;s Unique Identification project, Aadhar is using MongoDB as its database to store a massive amount of demographic and biometric data of more than 1.2 billion Indians.</p>
+<ol start="41">
+<li>What is mongoose ?</li>
+</ol>
+<p>Mongoose is a MongoDB ODM i.e (Object database Modelling) that used to translate the code and its representation from MongoDB to the Node. js server. Advantages of Mongoose module: Collection validation of the MongoDB database can be done easily.</p>
+<p>MongoDB is a document-oriented NoSQL database, while Mongoose is an Object Data Modeling (ODM) library for Node. js that provides a higher-level abstraction layer on top of MongoDB, allowing developers to define data models using a schema-based approach.</p>
+<ol start="42">
+<li>Mongodb function : -</li>
+</ol>
+<p>A MongoDB Function can be used to read, insert, update, or delete data from your MongoDB database. When you connect your database to Internal, basic functions corresponding to each collection in your database are automatically generated for you.</p>
+<ol start="43">
+<li>which mongodb api to use ?</li>
+</ol>
+<p>The MongoDB Data API can be used to query and update data in a MongoDB database without the need for language specific drivers. Language drivers should be used when possible, but the MongoDB Data API comes in handy when drivers are not available or drivers are overkill for the application.</p>
+<p>MongoDB RESTful API is simple to set up and allows you to store and retrieve documents, making it great for Unstructured Data.</p>
+<ol start="44">
+<li>What is storage engine ?</li>
+</ol>
+<p>The storage engine is the component of the database that is responsible for managing how data is stored, both in memory and on disk. MongoDB supports multiple storage engines, as different engines perform better for specific workloads.</p>
+<ol start="45">
+<li>Skip () : -</li>
+</ol>
+<p>MongoDB skip() is used when we required a certain number of results after a certain number of documents simultaneously we have use skip method in MongoDB. If we want to skip a certain number of documents from the collection, skip method will skip the specified documents that we have used with the MongoDB skip method</p>
+<ol start="46">
+<li>Text search : -</li>
+</ol>
+<p>For self-managed (non-Atlas) deployments, MongoDB&#x27;s text search capability supports query operations that perform a text search of string content. To perform text search, MongoDB uses a text index and the $text operator.</p>
+<ol start="47">
+<li>Command syntax : -</li>
+</ol>
+<p>To run a command against the current database, use db.runCommand() : db. runCommand( { <!-- -->&lt;command&gt;<!-- --> } ) To run an administrative command against the admin database, use db.adminCommand() : db.</p>
+<p>What is the syntax of find command in MongoDB? Syntax: db. collection_name. find(query, projection)</p>
+<ol start="48">
+<li>How does NoSQL DB budget memory?</li>
+</ol>
+<p>Ans: The Replication Node manages the data in a NoSQL DB store and is the main consumer of memory. The Java heap and cache size used by the Replication Node can be important performance factor</p>
+<ol start="49">
+<li>Syntax to create drop collection : -</li>
+</ol>
+<p><strong>First, check the available collections into your database mydb.</strong></p>
+<ul>
+<li>
+<blockquote>
+<p>use mydb switched to db mydb &gt;show collections mycol mycollection system. indexes tutorialspoint &gt; Now drop the collection with the name mycollection.</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>db. mycollection. drop() true &gt; ...</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>show collections mycol system. indexes tutorialspoint &gt;</p>
+</blockquote>
+</li>
+</ul>
+<p>●</p>
+<p>Use of Drop Collection in MongoDB</p>
+<p>To remove a collection completely, use the db. collection. drop() method and drop the entire collection, including the indexes and then reuse the collection.</p>
+<ol start="50">
+<li>Store capacity in a single mongodb document : -</li>
+</ol>
+<p>The maximum size an individual document can be in MongoDB is 16MB with a nested depth of 100 levels.</p>
+<p>We often need to store files in our databases, but mongoDB doesn&#x27;t let you store any file larger than 16 Mb in a normal document. Instead, MongoDB has a functionality specifically for storing large files and it goes by the name GridFS. GridFS divides the file into chunks and then stores them in the database.</p>
+<ol start="51">
+<li>BSON : -</li>
+</ol>
+<p>BSON, or Binary JSON, is the data format that MongoDB uses to organize and store data. This data format includes all JSON data structure types and adds support for types including dates, different size integers, ObjectIds, and binary data.</p>
+<ol start="52">
+<li>Supported datatypes in mongodb : -</li>
+</ol>
+<ul>
+<li>String. One of the most basic and widely used data types is the string. ...</li>
+<li>Integer. Numeric values are stored using the integer data type. ...</li>
+<li>Double. Numeric numbers containing 8 bytes (64-bit IEEE 754 floating point) floating-point are stored using the double data type. ...</li>
+<li>Boolean. ...</li>
+<li>Array. ...</li>
+<li>Object. ...</li>
+<li>Date. ...</li>
+<li>Timestamp.</li>
+<li>Null</li>
+<li>Binary</li>
+</ul>
+<ol start="53">
+<li>pretty() method : -</li>
+</ol>
+<p>pretty() method is used to configure the cursor to display results in an easy-to-read format. Syntax: cursor.pretty() The pretty() method has the following prototype form: db.collection.find(<!-- -->&lt;query&gt;<!-- -->).pretty()</p>
+<ol start="54">
+<li>
+<p>is mongodb supported foreign key and primary key relationship ?</p>
+<p>No. MongoDB doesn&#x27;t support primary key-foreign key relationship. MongoDB has _id key field for every document that uniquely identifies the particular document.</p>
+</li>
+<li>
+<p>CURD : -</p>
+</li>
+</ol>
+<p>The basic methods of interacting with a MongoDB server are called CRUD operations. CRUD stands for Create, Read, Update, and Delete. These CRUD methods are the primary ways you will manage the data in your databases.</p>
+<ol start="56">
+<li>
+<p>difference between insert, insertone and insertmany in mongodb ?</p>
+<p>With insertOne you can insert one document into the collection. insertMany accepts an array of documents and these are inserted. The insert (the method from older versions) takes a single document by default, and there is an option to insert multiple documents supplied as an array.</p>
+</li>
+<li>
+<p>How to display all the element ?</p>
+</li>
+</ol>
+<p>To obtain a list of MongoDB collections, we need to use the Mongo shell command show collections . This command will return all collections created within a MongoDB database.</p>
+<ol start="58">
+<li>Bulk write operation : -</li>
+</ol>
+<p>Bulk write operations affect a single collection. MongoDB allows applications to determine the acceptable level of acknowledgement required for bulk write operations. The db. collection. bulkWrite() method provides the ability to perform bulk insert, update, and delete operations.</p>
+<ol start="59">
+<li>Set () : -</li>
+</ol>
+<p>The $set operator replaces the value of a field with the specified value. The $set operator expression has the following form: { $set: { <!-- -->&lt;field1&gt;<!-- -->: <!-- -->&lt;value1&gt;<!-- -->, ... } } To specify a <!-- -->&lt;field&gt;<!-- --> in an embedded document or in an array, use dot notation.</p>
+<ol start="60">
+<li>Does MongoDB support collection joins?</li>
+</ol>
+<p>Join Collections</p>
+<p>MongoDB is not a relational database, but you can perform a left outer join by using the $lookup stage. The $lookup stage lets you specify which collection you want to join with the current collection, and which fields that should match.</p>
+<ol start="61">
+<li>how relationship maintained in mongodb ?</li>
+</ol>
+<p>In MongoDB, one-to-one, one-to-many, and many-to-many relations can be implemented in two ways: Using embedded documents. Using the reference of documents of another collection.</p>
+<ol start="62">
+<li>model one to one relationship in mongodb : -</li>
+</ol>
+<p>In this one-to-one relationship between patron and address data, the address belongs to the patron . In the normalized data model, the address document contains a reference to the patron document. With the embedded data model, your application can retrieve the complete patron information with one query.</p>
+<ol start="63">
+<li>Model one to many relationship in mongodb : -</li>
+</ol>
+<p>We can also perform a one-to-many relationship using the document reference model. In this model, we maintain the documents separately but one document contains the reference of the other documents. Now retrieving data from these different documents is cumbersome.</p>
+<ol start="64">
+<li>Different ways to model tree structure with mongodb : -</li>
+</ol>
+<ul>
+<li>Model Tree Structures with Parent References.</li>
+<li>Model Tree Structures with Child References.</li>
+<li>Model Tree Structures with an Array of Ancestors.</li>
+<li>Model Tree Structures with Materialized Paths.</li>
+<li>Model Tree Structures with Nested Sets.</li>
+</ul>
+<p><strong>Creating a tree node</strong></p>
+<ul>
+<li>Find parent node document to get the &quot;ancestors&quot; for our new node.</li>
+<li>Save the id of parent node and ancestor nodes when adding a new node.</li>
+<li>Add the id of the new node to the parent node&#x27;s children field.</li>
+</ul>
+<p>●</p>
+<ol start="64">
+<li>limit() : -</li>
+</ol>
+<p>In MongoDB, the limit() method limits the number of records or documents that you want. It basically defines the max limit of records/documents that you want. Or in other words, this method uses on cursor to specify the maximum number of documents/ records the cursor will return.</p>
+<ol start="65">
+<li>Sort () : -</li>
+</ol>
+<p>MongoDB can perform sort operations on a single-field index in ascending or descending order. In compound indexes, the sort order determines whether the index can be sorted. The sort keys must be listed in the same order as defined in the index.</p>
+<ol start="66">
+<li>Create index : -</li>
+</ol>
+<p>Indexes support efficient execution of queries in MongoDB. If your application is repeatedly running queries on the same fields, you can create an index on those fields to improve performance for those queries. To create an index, use the createIndex() shell method or equivalent method for your driver.</p>
+<ol start="67">
+<li>Mongodb projection : -</li>
+</ol>
+<p>MongoDB projection is a powerful tool that can be used to extract only the fields you need from a document—not all fields. It enables you to: Project concise and transparent data. Filter the data set without impacting the overall database performance</p>
+<ol start="68">
+<li>
+<p>which index is created by mongodb in every collection ?</p>
+<p>_id index</p>
+<p>MongoDB creates a unique index on the _id field during the creation of a collection. The _id index prevents clients from inserting two documents with the same value for the _id field.</p>
+</li>
+<li>
+<p>component of sharded cluster in mongodb : -</p>
+</li>
+</ol>
+<p>A sharded cluster in MongoDB is a collection of datasets distributed across many shards (servers) in order to achieve horizontal scalability and better performance in read and write operations. Sharding is very useful for collections that have a lot of data and high query rates.</p>
+<ul>
+<li>Sharded Cluster Components. Shards. ...</li>
+<li>Shard Keys.</li>
+<li>Hashed Sharding. Deploy Sharded Cluster using Hashed Sharding.</li>
+<li>Ranged Sharding. Deploy Sharded Cluster using Ranged Sharding.</li>
+<li>Tag Aware Sharding. Manage Shard Tags. ...</li>
+<li>Data Partitioning with Chunks. Create Chunks in a Sharded Cluster. ...</li>
+<li>Balancer. ...</li>
+<li>Administration.</li>
+</ul>
+<ol start="70">
+<li>Shard key : -</li>
+</ol>
+<p>The shard key is either a single indexed field or multiple fields covered by a compound index that determines the distribution of the collection&#x27;s documents among the cluster&#x27;s shards.</p>
+<ol start="71">
+<li>Accumulator operator : -</li>
+</ol>
+<p>Accumulators are operators that maintain their state (e.g. totals, maximums, minimums, and related data) as documents progress through the pipeline. Use the $accumulator operator to execute your own JavaScript functions to implement behavior not supported by the MongoDB Query Language.</p>
+<ol start="72">
+<li>What is the use of $project in MongoDB?</li>
+</ol>
+<p>The $project takes a document that can specify the inclusion of fields, the suppression of the _id field, the addition of new fields, and the resetting of the values of existing fields. Alternatively, you may specify the exclusion of fields.</p>
+<ol start="73">
+<li>What is the use of $match in MongoDB ?</li>
+</ol>
+<p>$match. Filters the documents to pass only the documents that match the specified condition(s) to the next pipeline stage.</p>
+<p>What is the use of match in mongoose?</p>
+<p>match() function of the Mongoose API is used to find the existing documents in the database that matches the conditions mentioned in the arguments of the API.</p>
+<ol start="74">
+<li>Why is &amp;group used in MongoDB?</li>
+</ol>
+<p>$group. The $group stage separates documents into groups according to a &quot;group key&quot;. The output is one document for each unique group key. A group key is often a field, or group of fields.</p>
+<p>We are also using the group method to group the documents in MongoDB. Using the group method we are grouping by two or multiple field in MongoDB. Group method will accept the single document from the collection. Basically group method is similar to group by clause which was used in other SQL databases.</p>
+<ol start="75">
+<li>What is the use of $unwind in MongoDB ?</li>
+</ol>
+<p>The $unwind operator in MongoDB is used to deconstruct an array field into multiple documents. It creates a new document for each element in the array, effectively &quot;unwinding&quot; the array.</p>
+<ol start="76">
+<li>What is the use of $lookup in MongoDB ?</li>
+</ol>
+<p>$lookup performs an equality match on the localField to the foreignField from the documents of the from collection. If an input document does not contain the localField , the $lookup treats the field as having a value of null for matching purposes.</p>
+<ol start="77">
+<li>feature to do safe backup in MongoDB : -</li>
+</ol>
+<p>In general, if using filesystem based backups for MongoDB Enterprise 4.2+, use the &quot;hot&quot; backup feature, if possible. For MongoDB Enterprise versions 4.0 and earlier, if you use AES256-GCM encryption mode, do not make copies of your data files or restore from filesystem snapshots (&quot;hot&quot; or &quot;cold&quot;).</p>
+<p>MongoDB Backup and Restore Best Practices</p>
+<p>MongoDB uses both regular JSON and Binary JSON (BSON) file formats. It&#x27;s better to use BSON when backing up and restoring. While JSON is easy to work with, it doesn&#x27;t support all of the data types that BSON supports, and it may lead to the loss of fidelity.</p>
+<ol start="78">
+<li>What is the backup method of MongoDB?</li>
+</ol>
+<p><strong>MongoDB Backup Methods</strong></p>
+<ul>
+<li>Back Up with Atlas.</li>
+<li>Back Up with MongoDB Cloud Manager or Ops Manager.</li>
+<li>Back Up by Copying Underlying Data Files.</li>
+<li>Back Up with mongodump.</li>
+</ul>
+<ol start="79">
+<li>What is configuration in MongoDB?</li>
+</ol>
+<p>The MongoDB configuration file contains settings that are equivalent to the command-line options mongod and mongos. Using a MongoDB configuration file simplifies the management of mongod and mongos options, especially in large-scale deployments.</p>
+<ol start="80">
+<li>Use of Ops manager : -</li>
+</ol>
+<p>Ops Manager is the self-hosted management platform that enables you to deploy, monitor, back up, and scale MongoDB on your own infrastructure. Identify issues before they become emergencies and streamline operations.</p>
+<ul>
+<li>Configure Deployment to Have Limited Internet Access. ...</li>
+<li>Enable Backing Database Monitoring.</li>
+<li>Deploy a Highly Available Application.</li>
+<li>Deploy Highly Available Backups.</li>
+<li>Configure Ops Manager to Monitor Large Deployments.</li>
+<li>Assign Snapshot Stores to Specific Data Centers.</li>
+<li>Pass Outgoing Traffic through HTTP Proxy.</li>
+</ul>
+<p><em>THANK YOU -</em></p></article></main></div><script id="__NEXT_DATA__" type="application/json" crossorigin="">{"props":{"pageProps":{"post":{"slug":"NODE-EXPRESS-MONGO","title":"Important NODE-EXPRESSS-MONGODB question","excerpt":"Node,express and mongodb is the most important programming language for backend development. You probably don't know it well enough!","image":"backend.png","isFeatured":false,"date":"2024-08-21","content":"\r\n1. What is node js ?\r\n\r\nNode. js is a single-threaded, open-source, cross-platform runtime environment for building fast and scalable server-side and networking applications. It runs on the V8 JavaScript runtime engine, and it uses event-driven, non-blocking I/O architecture, which makes it efficient and suitable for real-time applications.\r\n\r\n2. Features : -\r\n- Single Threaded. Node. ...\r\n- Asynchronous. Node. ...\r\n- Event Driven. The event-driven concept is similar to the concept of a callback function in asynchronous programming. ...\r\n- Open Source. Node. ...\r\n- Performance. ...\r\n- Highly Scalable. ...\r\n- Node Package Manager(NPM) ...\r\n- No Buffering.\r\n3. Advantage \u0026 disadvantage : -\r\n\r\nIts event-driven nature, microservices architecture, and MongoDB support allows businesses to grow and scale their products easily. However, be careful with heavy CPU bound tasks, as Node. js can reduce the performance of your application\r\n\r\n4. Node vs javascript : -\r\n\r\nNodeJS is a Javascript runtime environment. Javascript is a computer programming language that is used to build scripts for websites. With the support of NodeJS, Javascript can be executed outside of the browser. Only browsers are capable of running Javascript.\r\n\r\n5. Uses and benefits : -\r\n\r\nNode. js allows programmers to develop server-side JavaScript and frontend JavaScript codes with simplicity. One of the major node. js advantages is that it eliminates the need for two resource teams, saving time, money, and energy for overall project development.\r\n\r\n6. Node vs angular : -\r\n\r\nThe Angular features allow programmers to build interactive, client-side web applications, making the framework widely used by JavaScript developers nowadays. Node. js, on the other hand, is mainly used by JavaScript developers to create fast \u0026 scalable networking and server-side applications.\r\n\r\n7. Why node is single threaded : -\r\n\r\nNode. js is Single Threaded, i.e. it executes the code in a single sequence or direction. At a given time, only a single task/ call is executed. Asynchronous and Single-Threaded: Execution doesn't wait for the current request to complete and moves to the next request/call\r\n\r\n8. Different api function : -\r\n\r\n**The two types of API functions in Node.js are:**\r\n\r\n- Asynchronous, non-blocking functions.\r\n- Synchronous, blocking functions.\r\n9. Synchronous and asynchronous function : -\r\n\r\nAsynchronous is a non-blocking architecture, so the execution of one task isn't dependent on another. Tasks can run simultaneously. Synchronous is a blocking architecture, so the execution of each operation is dependent on the completion of the one before it.\r\n\r\n10. Control flow function : -\r\n\r\nA control flow function is a lightweight, generic piece of code which runs in between several asynchronous function calls and which take care of the necessary housekeeping to: control the order of execution, collect data, limit concurrency and.\r\n\r\n11. Event loop : -\r\n\r\nAn event loop is an endless loop, which waits for tasks, executes them, and then sleeps until it receives more tasks. The event loop executes tasks from the event queue only when the call stack is empty i.e. there is no ongoing task. The event loop allows us to use callbacks and promises.\r\n\r\nNode. js has two types of threads: one Event Loop and k Workers. The Event Loop is responsible for JavaScript callbacks and non-blocking I/O, and a Worker executes tasks corresponding to C++ code that completes an asynchronous request, including blocking I/O and CPU-intensive work.\r\n\r\n12. Order of execution in control flow statement : -\r\n\r\n**These are following the order in which control flow statements are used to process function calls:**\r\n\r\n- Handling execution and queue.\r\n- Data collection and storage.\r\n- Concurrency handling and limiting.\r\n- Execution of the next piece of code.\r\n\r\nControl flow in Node. js is typically managed using one of three methods: callbacks, promises, and async/await. 1. Callbacks: Callbacks are functions that are passed as arguments to other functions and are executed when that function completes its task.\r\n\r\n13. Event based model : -\r\n\r\nNode. js uses event driven programming. It means as soon as Node starts its server, it simply initiates its variables, declares functions and then simply waits for event to occur. It is the one of the reason why Node. js is pretty fast compared to other similar technologies.\r\n\r\n14. Ajax vs node : -\r\n\r\nNode. js allows code to be written on the server side. AJAX is apart of the front-end of website development. This means that you can use AJAX to send off requests to the server, but node can be written to process those requests and shoot back responses.\r\n\r\n15. Framework : -\r\n\r\nExpress.js Meteor\r\n\r\nSails.js Angular\r\n\r\nNext.js\r\n\r\n16. Test pyramid : -\r\n\r\nThe test pyramid in Node. js is a conceptual model that guides software developers in structuring their test suites. It emphasizes a balanced distribution of different types of tests, such as unit, integration, and end-to-end tests.\r\n\r\n17. Libuv : -\r\n\r\nLibuv is a library written in the programming language C that helps nodejs to improve efficiency while running tasks parallelly. However, nodejs already have async API's. It uses Libuvs's thread pools if async API is not available in nodejs and processes are blocking the operations.\r\n\r\n18. Spawn vs fork method : -\r\n\r\nFork creates a child process that is a copy of the parent process, while spawn creates a new process from scratch. Exec is typically used for short-lived processes, while fork and spawn are typically used for long-lived processes\r\n\r\n19. Middleware : -\r\n\r\nThe middleware in node. js is a function that will have all the access for requesting an object, responding to an object, and moving to the next middleware function in the application request-response cycle.\r\n\r\nThe main purpose of the middleware is to modify the req and res objects, and then compile and execute any code that is required. It also helps to terminate the request-response session and call for the next middleware in the stack.\r\n\r\n20. Global object : -\r\n\r\nNode. js Global Objects are the objects that are available in all modules. Global Objects are built-in objects that are part of the JavaScript and can be used directly in the application without importing any particular module.\r\n\r\n21. Assert : -\r\n\r\nThe assert module provides a way of testing expressions. If the expression evaluates to 0, or false, an assertion failure is being caused, and the program is terminated. This module was built to be used internally by Node.\r\n\r\nThe assert() method tests if a given expression is true or not. If the expression evaluates to 0, or false, an assertion failure is being caused, and the program is terminated. The assert() method is an alias of the assert. ok() method.\r\n\r\n22. Stubs : -\r\n\r\nStubs are functions or programs that affect the behavior of components or modules. Stubs are dummy objects for testing. Stubs implement a pre-programmed response.\r\n\r\n23. Buffer class : -\r\n\r\nThe Buffer class in Node. js is used to perform operations on raw binary data. Generally, Buffer refers to the particular memory location in memory. Buffer and array have some similarities, but the difference is array can be any type, and it can be resizable.\r\n\r\nIn Node Js, buffers are used to store raw binary data. A buffer represents a\r\n\r\nchunk of memory that is allocated on our computer. The size of the buffer, once set, cannot be changed. A buffer is used to store bytes.\r\n\r\n24. Why express js used ?\r\n\r\nExpress is a node js web application framework that provides broad features for building web and mobile applications. It is used to build a single page, multipage, and hybrid web application. It's a layer built on the top of the Node js that helps manage servers and routes\r\n\r\n25. Connect module : -\r\n\r\nConnect-flash module for Node. js allows the developers to send a message whenever a user is redirecting to a specified web-page.\r\n\r\n26. Streams : -\r\n\r\nA stream is an abstract interface for working with streaming data in Node.js. The node:stream module provides an API for implementing the stream interface. There are many stream objects provided by Node.js. For instance, a request to an HTTP server and process.stdout are both stream instances.\r\n\r\nStreams are objects that allows developers to read/write data to and from a source in a continuous manner. There are four main types of streams in Node. js; readable, writable, duplex and transform. Each stream is an eventEmitter instance that emits different events at several intervals.\r\n\r\n27. Use of repl : -\r\n\r\nNote: REPL stands for Read Evaluate Print Loop, and it is a programming language environment (basically a console window) that takes single expression as user input and returns the result back to the console after execution. The REPL session provides a convenient way to quickly test simple JavaScript code.\r\n\r\n28. Tracing : -\r\n\r\nTracing is a convenient way for developers to monitor and analyze application performance at runtime. Node. js offers a few options to generate and diagnose custom trace data in JavaScript applications. The built-in trace mechanism supports centralized tracing for not only V8 and Node. js core, but also userspace code.\r\n\r\nYou can also use the flag --trace-warnings , which will give you the stack trace of where the warning is coming from whenever you encounter a warning. This warning is showing something that might not work in the future: a deprecation warning .\r\n\r\n29. Packages.json : -\r\n\r\nYour package. json holds important information about the project. It contains human-readable metadata about the project (like the project name and description) as well as functional metadata like the package version number and a list of dependencies required by the application.\r\n\r\n30. Difference between read file and create file : -\r\n\r\nreadfile loads the whole file into the memory you pointed out, the fs. createReadStream, on the other hand, reads the entire file in chunks of sizes that you specified. The client will also receive the data faster with fs\r\n\r\n31. Crypto module : -\r\n\r\nThis module can be used for encrypting, decrypting, or hashing any type of data. This encryption and decryption basically help to secure and add a layer of authentication to the data. The main use case of the crypto module is to convert the plain readable text to an encrypted format and decrypt it when required\r\n\r\n32. Passport : -\r\n\r\nThe Passport is a node package, or library which we can install in any nodeJs project. The Passport provides the functionality for authentication in the app. Also, it provides different encryption strategies to encrypt user information, such as a password.\r\n\r\n33. how to get file information in node js ?\r\n\r\nTo get information about a file, we can use the fs. Stats object, which is returned by the fs. stat() , fs.\r\n\r\n34. DNS lookup function : -\r\n\r\nlookup() Method. The dns. lookup() method resolves the host name (e.g., tutorialspoint.com) into the first found A IPv4) or AAAA (IPv6) record. The properties available under the options are optional.\r\n\r\nThe node:dns module enables name resolution. For example, use it to look up IP addresses of host names. Although named for the Domain Name System (DNS), it does not always use the DNS protocol for lookups. dns. lookup() uses the operating system facilities to perform name resolution.\r\n\r\n35. Eventemitter : -\r\n\r\nThe EventEmitter class can be used to create and handle custom events module. The syntax to Import the events module are given below: Syntax: const EventEmitter = require('events'); All EventEmitters emit the event newListener when new listeners are added and removeListener when existing listeners are removed.\r\n\r\n36. Settimeout() vs setimmediate() : -\r\n\r\nsetImmediate() and setTimeout() are similar, but behave in different ways depending on when they are called. setImmediate() is designed to execute a script once the current poll phase completes. setTimeout() schedules a script to be run after a minimum threshold in ms has elapsed.\r\n\r\n37. Module exports purpose : -\r\n\r\nmodule. Exports is the object that is returned to the require() call. By module. exports, we can export functions, objects, and their references from one file and can use them in other files by importing them by require() method.\r\n\r\n38. What is the difference between asynchronous and non-blocking Nodejs?\r\n\r\n    Non-Blocking: It refers to the program that does not block the execution of further operations. Non-Blocking methods are executed asynchronously. Asynchronously means that the program may not necessarily execute line by line\r\n\r\n39. Error first callback : -\r\n\r\nError-First Callback in Node. js is a function which either returns an error object or any successful data returned by the function. The first argument in the function is reserved for the error object. If any error has occurred during the execution of the function, it will be returned by the first argument.\r\n\r\n40. Url module : -\r\n\r\nThe URL module in Node. js is used when working with URLs in our Node. js file. It provides functions to access different parts of our URL. We use this module in web development when we work with URLs to make HTTP requests to external APIs and handle file paths.\r\n\r\n41. Use of NODE\\_ENV : -\r\n\r\nNODE\\_ENV is an environment variable that stands for node environment in the express server. The NODE\\_ENV environment variable specifies the environment in which an application is running (usually, development or production)\r\n\r\n42. **What are the various timing features of Node. js ?**\r\n- callback: This parameter holds the function that to be executed.\r\n- delay: This parameter holds the number of milliseconds to wait before calling the callback function.\r\n- args: This parameter holds the optional parameter.\r\n43. **Below is the list of the tasks which must be done asynchronously using the event loop:**\r\n- I/O operations.\r\n- Heavy computation.\r\n- Anything requiring blocking.\r\n\r\nAsynchronous flow refers to the way Node. js handles and executes ensuring that the main program flow remains unblocked. As a server-side runtime environment built on Chrome's V8 JavaScript engine, Node. js efficiently manages concurrent tasks and optimizes resource utilization.\r\n\r\n44. Reactor pattern : -\r\n\r\nNote: Node. js is Asynchronous in nature. Reactor Pattern comprises of: Resources: They are shared by multiple applications for I/O operations, generally slower in executions. Synchronous Event De-multiplexer/Event Notifier: This uses Event Loop for blocking on all resources.\r\n\r\n45. Frontend vs backend development : -\r\n\r\nNode. js can also be used with popular frontend frameworks like React, Vue, and Angular, to create scalable and high-performance applications. On the backend, Node. js is used to develop server-side applications that handle network requests, data processing, and database operations.\r\n\r\n46. Major security implementation : -\r\n\r\nEstablishing practices like validating user input, implementing authentication, limiting request sizes, and setting up logging and monitoring are good first steps to securing Node. js. For specific concerns about code injection attacks, here are five ways to prevent code injection in Node.\r\n\r\n- Allow Using Secure Passwords Only. ...\r\n- Secure Your Stored Passwords with Encryption. ...\r\n- Limit the Number of Login Attempts per User per Unit of Time. ...\r\n- Keep Your Node. ...\r\n- Do Not Install Questionable Packages. ...\r\n- Always Validate Input and Output Data. ...\r\n- Always Replace Default Cookie Names.\r\n47. ESLint : -\r\n\r\nESLint is the dominant tool for linting Node. JS packages. It is a pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. It uses the AST (Abstract Syntax Tree) to evaluate patterns in code.\r\n\r\nOne of the main benefits of using ESLint for software security is that it automates the detection of potential vulnerabilities. This can save you time and effort that would be spent manually reviewing your code, and can help you catch issues early on in the development process before they become a bigger problem.\r\n\r\n48. Stubs : -\r\n\r\nStubs are functions or programs that affect the behavior of components or modules. Stubs are dummy objects for testing. Stubs implement a pre-programmed response.\r\n\r\n49. process.nexttick vs setimmediate in node js : -\r\n\r\nIt is interesting to note that setImmediate adds callbacks to the event queue that are executed during the check phase, whereas process. nextTick executes callbacks immediately after the current phase.\r\n\r\nsetImmediate() is processed in the Check handlers phase, while process. nextTick() is processed at the starting of the event loop and between each phase of the event loop.\r\n\r\n50. How does NodeJS handle child threads?\r\n\r\nNode. js is a single-threaded runtime, which means that it does not have the ability to create child threads or to delegate work to them. However, it is designed to be highly scalable and can perform non-blocking I/O operations, allowing it to handle many concurrent connections without the need for child threads.\r\n\r\nIt does not expose child threads and thread management methods to the developer. Technically, Node. js does spawn child threads for certain tasks such as asynchronous I/O, but these run behind the scenes and do not execute any application JavaScript code, nor block the main event loop.\r\n\r\n51. Punycode : -\r\n\r\nPunycode is a character encoding scheme defined by RFC 3492 that is primarily intended for use in Internationalized Domain Names. Because host names in URLs are limited to ASCII characters only, Domain Names that contain non-ASCII characters must be converted into ASCII using the Punycode scheme.\r\n\r\nPunycode is a special encoding for converting Unicode characters in different languages to ASCII. It is used to correctly transcode a domain name containing non-Latin characters into addresses that comply with DNS standards.\r\n\r\n52. Exit code of node : -\r\n\r\nThe following is the list of exit codes in Node.js along with its descriptions:\r\n\r\n- **Exit Code 0:** Node.js normally ends with a status code of 0 whenever there are no more open async operations and the code doesn’t produce any uncaught exceptions.\r\n- **Exit Code 1, Uncaught Fatal Exception:** If an uncaught exception occurs and it is not resolved by a domain or a “uncaughtException” event handler, Node.js exits with an exit code of 1.\r\n- **Exit Code 2:** The exit code 2 is reserved by Bash for abuse of built-in features.\r\n- **Exit Code 3, Internal JavaScript Parse Error:** When internal code cannot be effectively interpreted, this exit code might be utilised in development. This is highly uncommon and often only occurs while Node.js is being developed.\r\n- **Exit Code 4, Internal JavaScript Evaluation Failure:** It is also applied in situations where the JavaScript code fails to return the function value during development.\r\n- **Exit Code 5, Fatal Error:** When a fatal, unrecoverable error occurred in V8, this exit code is utilised. Usually, stderr will produce a message with the prefix FATAL ERROR.\r\n- **Exit Code 6, Non-function Internal Exception Handler:** When an internal fatal exception handler function is set to a non-function and unable to be invoked, it is helpful.\r\n- **Exit Code 7, Internal Exception Handler Run-Time Failure:** This error code is used when the internal fatal exception handler code itself issued an error when attempting to handle the uncaught exception. This may occur, for instance, if a domain.on(‘error’) handler or a “uncaughtException” returns an error.\r\n- **Exit Code 8:** Exit code 8 in earlier versions of Node.js was sometimes used to denote an uncaught error.\r\n- **Exit Code 9, Invalid Argument:** This is employed when an unspecified option was given or when a value-required option was given without one..\r\n- **Exit Code 10, Internal JavaScript Run-Time Failure:** When the bootstrapping function was invoked, the JavaScript source code internal to Node.js’s bootstrapping procedure threw an error.\r\n- **Exit Code 12, Invalid Debug Argument:** The ports specified were either unavailable or invalid, yet the —debug, —inspect, and/or —debug-brk options were set.\r\n- **Exit Code \u003e128, Signal Exits:** Node.js’s exit code is 128 plus the signal code’s value if it gets a fatal signal like SIGKILL or SIGHUP. This is a common Unix practice since signal exits set the high-order bit before containing the signal code’s value and exit codes are often specified as 7-bit integers.\r\n53. Is crypto available in node JS?\r\n\r\nCrypto is a module in Node. js which deals with an algorithm that performs data encryption and decryption. This is used for security purpose like user authentication where storing the password in Database in the encrypted form. Crypto module provides set of classes like hash, HMAC, cipher, decipher, sign, and verify.\r\n\r\n54. how install update and delete a dependency in node js ?\r\n- We can update the project dependencies using the update command: npm update.\r\n- We can update any particular project dependency using the following command: npm update \u003cpackagename\u003e\r\n- We can uninstall a project dependency using the following command: npm uninstall \u003cpackage\\_name\u003e\r\n55. Create simple server : -\r\n- Step 1: Import HTTP module. ...\r\n- Step 2: Create Variables For Host And Port. ...\r\n- Step 3: Create A Server Process. ...\r\n- Step 4: Implement the requestListener function. ...\r\n- Step 5: Start And Test The HTTP Server.\r\n\r\n●\r\n\r\nvar http = require('http'); http.createServer(function (req, res) {\r\n\r\nres.writeHead(200, {'Content-Type': 'text/html'}); res.write('Hello World!');\r\n\r\nres.end();\r\n\r\n}).listen(8080);\r\n\r\n56. Implement async : -\r\n\r\nThe asynchronous function can be written in Node. js using 'async' preceding the function name. The asynchronous function returns an implicit Promise as a result. The async function helps to write promise-based code asynchronously via the event loop\r\n\r\n57. Types of http request : -\r\n\r\nHTTP (Hypertext Transfer Protocol) specifies a collection of request methods to specify what action is to be performed on a particular resource. The most commonly used HTTP request methods are GET, POST, PUT, PATCH, and DELETE.\r\n\r\n58. Npm : -\r\n\r\nWhat is NPM? NPM is a package manager for Node.js packages, or modules if you like. www.npmjs.com hosts thousands of free packages to download and use. The NPM program is installed on your computer when you install Node.js. NPM is already ready to run on your computer!\r\n\r\n59. Piping : -\r\n\r\nPiping in NodeJS is the process by which byte data from one stream is sent to another stream. What are streams? Streams in NodeJS are a sequence of bytes. When a program processes some data it needs to read all the data into memory and then process it and write out the data back into some location.\r\n\r\n60. Flag used in read/write operation : -\r\n\r\n\r\n\r\n||||\r\n| :- | :- | :- |\r\n||r|Open file for reading. An exception occurs if the file does not exist.|\r\n|r+|Open file for reading and writing. An exception occurs if the file does not exist.||\r\n|rs|Open file for reading in synchronous mode.||\r\n|rs+|Open file for reading and writing, telling the OS to open it synchronously. See notes for 'rs' about using this with caution.||\r\n|w|Open file for writing. The file is created (if it does not exist) or truncated (if it exists).||\r\n|wx|Like 'w' but fails if path exists.||\r\n|w+|Open file for reading and writing. The file is created (if it does not exist) or truncated (if it exists).||\r\n\r\n\r\n\r\n|wx+|Like 'w+' but fails if path exists.|\r\n| - | - |\r\n|a|Open file for appending. The file is created if it does not exist.|\r\n|ax|Like 'a' but fails if path exists.|\r\n|a+|Open file for reading and appending. The file is created if it does not exist.|\r\n|ax+|Like 'a+' but fails if path exists.|\r\n\r\n61. Process model : -\r\n\r\nContrary to the traditional web server model, NodeJS uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. The NodeJS process model can be explained with three architectural features of NodeJS. Single-threaded event loop. Non-Blocking I/O Model. Event-driven and Asynchronous by default\r\n\r\n62. Chaining : -\r\n\r\nIn Node.js, chaining refers to the practice of calling multiple functions on the same object in a single statement.\r\n\r\n63. CLI in node js : -\r\n\r\nCommand-line interfaces (CLIs) built-in Node. js authorize automating repetitive tasks while leveraging the Node. js ecosystem. Package managers like npm and yarn are distributed and ingested across multiple platforms.\r\n\r\njs. We use command-line utilities every day, whether it be git, grep, awk, npm, or any other terminal app. CLIs are super useful and usually the fastest way to get something done.\r\n\r\n64. require() method : -\r\n\r\nThe require() function is a built-in CommonJS module function supported in Node.js that lets you include modules within your project. This is because, by default, Node.js treats JavaScript code as CommonJS modules.\r\n\r\n65. Why node js use v8 : -\r\n\r\nV8 is a high-performance JavaScript engine developed by Google and used in Google Chrome, the open-source browser from Google. It was designed to improve the performance of web applications by compiling JavaScript into native machine code rather than interpreting it, which makes it faster\r\n\r\n66. Template engine : -\r\n\r\nTemplate engine helps to create an HTML template with minimal code. Also, it can inject data into an HTML template on the client side and produce the final HTML. EJS is a simple templating language that is used to generate HTML markup with plain JavaScript. It also helps to embed JavaScript into HTML pages.\r\n\r\n67. Express generator : -\r\n\r\nExpress-generator is an all-in-one tool that allows you to quickly create a node-js application using the express library. Thanks to this generator, it will be possible to specify the template (view), the CSS preprocessor, etc.\r\n\r\n68. Template literals : -\r\n\r\nTemplate literals are literals delimited with backtick ( ` ) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates\r\n\r\n69. CSRF attack : -\r\n\r\nCross-site request forgery attacks (CSRF or XSRF for short) works by an attacker gaining access to a victim's browser — typically through a malicious link.\r\n\r\njs prevents the Cross-Site Request Forgery(CSRF) attack on an application. By using this module, when a browser renders up a page from the server, it sends a randomly generated string as a CSRF token. Therefore, when the POST request is performed, it will send the random CSRF token as a cookie.\r\n\r\n70. Microservice : -\r\n\r\nNode. js Microservices are self-contained and independent of each other. This means that every service is developed, deployed, and scaled as a separate and standalone unit. They do not have any dependency on other services even though these services combine to form the application. This is called as loose-coupling.\r\n\r\nNode. js is ideal for building microservices due to its non-blocking I/O model, event-driven architecture, and lightweight design. As a result, it enables developers to create high-performance, real-time applications that can scale easily and remain resilient in the face of failure.\r\n\r\n71. Docker hub : -\r\n\r\nDocker will create containerized applications that run on any type of environment that have all the dependencies within it. So setting up the development environment is just one command away. Docker has many use cases – this scenario is just one of them\r\n\r\nDocker Hub is a collaboration tool and a marketplace for community developers, open source contributors, and independent software vendors (ISVs) to distribute their code publicly. Docker Hub provides a consistent, secure, and trusted experience, making it easy for developers to access software they need.\r\n\r\n**EXPRESS-JS**\r\n\r\n1. What is express ?\r\n\r\nIt is used for designing and building web applications quickly and easily. Web applications are web apps that you can run on a web browser. Since Express. js only requires javascript, it becomes easier for programmers and developers to build web applications and API without any effort.\r\n\r\n2. Features : -\r\n\r\nExpress. js can be used for various purposes, including building single-page applications, mobile applications, RESTful APIs, server-side rendering, real-time applications, and microservices. Express. js provides various key features, including routing, middleware, templates, error handling, security, and ease of use.\r\n\r\n3. Advantage and disadvantage : -\r\n\r\n**Advantages of ExpressJS:**\r\n\r\n- Minimal and Lightweight. Express. ...\r\n- Easy to Learn and Use. Express. ...\r\n- Middleware Support. One of the key features of Express. ...\r\n- Routing. Express. ...\r\n- Template Engines. Express. ...\r\n- Database Support. Express. ...\r\n- Scalability. Express. ...\r\n- Lack of Structure and Convention. One of the primary limitations of using Express.\r\n\r\n**disadvantages of express. js?**\r\n\r\n- Event-driven nature (callbacks)\r\n- Code organization.\r\n- Its not big on security.\r\n- Its error messages are usually unhelpful.\r\n4. how express handle routing ?\r\n\r\nYou define routing using methods of the Express app object that correspond to HTTP methods; for example, app.get() to handle GET requests and app.post to handle POST requests. For a full list, see app.METHOD.\r\n\r\n5. Middleware : -\r\n\r\nMiddleware functions are functions that have access to the request object ( req ), the response object ( res ), and the next function in the application's request-response cycle. The next function is a function in the Express router which, when invoked, executes the middleware succeeding the current middleware.\r\n\r\n**An Express application can use the following types of middleware:**\r\n\r\n- Application-level middleware.\r\n- Router-level middleware.\r\n- Error-handling middleware.\r\n- Built-in middleware.\r\n- Third-party middleware.\r\n\r\n●\r\n\r\nYou can enable your custom middleware in your Express server by applying the built-in Express. js middleware, . use() . const express = require('express'); const setCurrentUser = require('./middleware/setCurrentUser.\r\n\r\nMiddleware Chaining: Middleware can be chained from one to another, Hence creating a chain of functions that are executed in order. The last function sends the response back to the browser. So, before sending the response back to the browser the different middleware process the request.\r\n\r\n6. how can you handle form data in express js ?\r\n\r\nGetting form data with the post method in Express. js. First, we need to install the express and body-parser packages. body-parser is used to process the data sent through an HTTP request.\r\n\r\nconst express = require('express'); const app = express();\r\n\r\napp.post('/submit-form', (req, res) =\u003e {\r\n\r\nconst name = req.body.name;\r\n\r\nconst email = req.body.email;\r\n\r\n//Do some processing and validation on the data //Store the data in a database or send it as an email\r\n\r\nres.send('Form submitted successfully!');\r\n\r\n});\r\n\r\napp.listen(3000, () =\u003e console.log('Server running on port 3000')); const bodyParser = require('body-parser'); app.use(bodyParser.urlencoded({ extended: false }));\r\n\r\n7. How can you handle static file ?\r\n\r\nTo serve static files such as images, CSS files, and JavaScript files, use the express.static built-in middleware function in Express. The root argument specifies the root directory from which to serve static assets. For more information on the options argument, see express.static.\r\n\r\nServing static files in Expressjs: ExpressJS provides a built-in middleware function called express. static() that allows you to serve static files in your application. This middleware takes a directory path as an argument and serves any files in that directory at their respective URL paths.\r\n\r\nUsing express. static() method, you can server static resources directly by specifying the folder name where you have stored your static resources. The following example serves static resources from the public folder under the root folder of your application.\r\n\r\n8. purpose of next() in express js : -\r\n\r\nThe next() function is a function in the Express router that, when invoked, executes the next middleware in the middleware stack. If the current middleware function does not end the request-response cycle, it must call next() to pass control to the next middleware function. Otherwise, the request will be left hanging.\r\n\r\nThe next() function returns the next item in an iterator. You can add a default return value, to return if the iterable has reached to its end.\r\n\r\n9. how can you handle route parameter in express js ?\r\n\r\nRoute parameters are accessible in the route handling function on the params property of the Request object. Recall from the previous tutorials that both a Request and Response object are passed as input of the route handling function by the Express.\r\n\r\n10. how can you implement authentication ?\r\n\r\nAuthentication is a process in which the credentials provided are compared to those on file in a database of authorized users' information on a local operating system or within an authentication server. If the credentials match, the process is completed and the user is granted authorization for access.\r\n\r\n**Implementing User Authentication in Express Apps**\r\n\r\n- Step 1: Setting Up Development Environment. First, create a project folder and cd into it by running: mkdir user-authentication. ...\r\n- Step 2: Connecting Your Application to a Database. ...\r\n- Step 3: Creating User Model. ...\r\n- Step 4: Implementing Sign-in and Sign-up Routes.\r\n11. How can you handle error ?\r\n\r\nThe simplest way of handling errors in Express applications is by putting the error handling logic in the individual route handler functions. We can either check for specific error conditions or use a try-catch block for intercepting the error condition before invoking the logic for handling the error.\r\n\r\n12. What is route handler in Express JS?\r\n\r\nAs a generic term, a route handler is code that is looking for a request to a specific incoming URL such as /login and often a specific HTTP verb such as POST and has specific code for handling that precise URL and verb. Some examples: Serve a specific web page.\r\n\r\n13. how can you access request query parameters ?\r\n\r\nYour query parameters can be retrieved from the query object on the request object sent to your route. It is in the form of an object in which you can directly access the query parameters you care about. In this case Express handles all of the URL parsing for you and exposes the retrieved parameters as this object.\r\n\r\nWe can access these route parameters on our req. params object using the syntax shown below. app. get(/:id, (req, res) =\u003e { const id = req.params.id; });\r\n\r\n14. How can you send json response ?\r\n\r\njson() function sends a JSON response. This method sends a response (with the correct content-type) that is the parameter converted to a JSON string using the JSON. stringify() method. Parameters: The body parameter is the body that is to be sent in the response.\r\n\r\nTo send data as a response to a client we typically use res. send() method, and to send static files we use the res. sendFile() method. In the same way, to send JSON data, the Express module has a method res\r\n\r\n15. How can you handle file upload ?\r\n\r\nTo handle file uploads in Express. js, you can use middleware such as Multer, a Node. js middleware used for handling multipart/form-data, which is mainly used for file uploads.\r\n\r\n16. Difference between app.get() and app.use() : -\r\n\r\napp. use → It is generally used for introducing middlewares in your application and can handle all type of HTTP requests. app. get → It is only for handling GET HTTP requests.\r\n\r\napp. get is called when the HTTP method is set to GET, whereas app. use is called regardless of the HTTP method, and therefore defines a layer which is on top of all the other RESTful types which the express packages gives you access to.\r\n\r\n17. How can you set response header ?\r\n\r\nSelect the web site where you want to add the custom HTTP response header. In the web site pane, double-click HTTP Response Headers in the IIS section. In the actions pane, select Add. In the Name box, type the custom HTTP header name\r\n\r\nWe can use the set method to set response headers before sending a response. app. listen(3000); Then when we make a request to / , we get that the Content-Length header is set to 100 and the Content-Type is set to text/plain .\r\n\r\n18. Purpose of app.locals object : -\r\n\r\nThe app. locals object defines the properties that are local variables inside an application. Once the value of app. locals property is set, it persists throughout the life of the application\r\n\r\n19. how can you implement session management ?\r\n\r\nYou can install and configure these middleware options using npm . Once installed, we can require it in our Node. js application and configure it as follows: const express = require('express'); const session = require('express-session'); const app = express(); app.\r\n\r\n20. how can you handle cors ?\r\n\r\nCross-origin resource sharing (CORS) allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.\r\n\r\nThe easiest way to get CORS working in Express is by using the cors npm module. That's it. CORS is now enabled. The Access-Control-Allow-Origin header determines which origins are allowed to access server resources over CORS (the \\* wildcard allows access from any origin).\r\n\r\nYou need to configure the server to only allow one origin to serve, and block all the others. Using the same cors Node library, here's how you would do it: const cors = require('cors') const corsOptions = { origin: 'https://yourdomain.com', } app. get('/products/:id', cors(corsOptions), (req, res, next) =\u003e { //... })\r\n\r\n21. Route prefix : -\r\n\r\nA prefix is found within the routing table and composes part of the route. A route is a particular entry in the routing table. A route is composed of a prefix, and either a next hop IP, an exit interface, or both.\r\n\r\n22. How can you implement rate limiting ?\r\n\r\n**To set up a rate limiter, we need to define two parameters:**\r\n\r\n- The consumer ID: It is the unique identifier associated with a client consuming our API. The IP address is the most used, and we will use it in our case.\r\n- Request per window: The maximum number of requests to execute in a specific timeframe.\r\n\r\nExpress Rate Limit: Rate limiting prevents the same IP address from making too many requests that will help us prevent attacks like brute force. Required Dependency: npm install express-rate-limit. Project Setup: Run the following sets of commands to create a folder and initialize the project.\r\n\r\n**This approach to rate limiting is easy to build in a NodeJS-Express app, with just a few steps.**\r\n\r\n- Step 1: Setting Up a Development Environment. First, you'll need to create and initialize an Express application. ...\r\n- Step 2: Creating an Express Application. ...\r\n- Step 3: Creating Route Handlers. ...\r\n- Step 4: Implementing Rate Limiting.\r\n23. Purpose of view engine : -\r\n\r\nView engines allow us to render web pages using template files. These templates are filled with actual data and served to the client. There are multiple view engines, the most popular of which is Embedded Javascript (EJS).\r\n\r\nThe Express application generator uses Jade as its default, but it also supports several others. See Template Engines (Express wiki) for a list of template engines you can use with Express. See also Comparing JavaScript Templating Engines: Jade, Mustache, Dust and More. Note: Jade has been renamed to Pug.\r\n\r\n24. how can you handle redirects ?\r\n\r\nThe res. redirect() method in ExpressJS can be used to execute a redirect. The client is given navigation instructions by this function, which accepts a URL as a parameter.\r\n\r\nExpressJS provides the facility to redirect to any URL with any status code. By default, the status code is set to 302. We can change the status code in the res. redirect() function by passing the new status code as the first parameter.\r\n\r\n25. How can you access request headers ?\r\n\r\nIn express, we can use request. headers['header-name'], For example if you have set up a Bearer token in authorization header and want to retrieve the token, then you should write req. headers['authorization'], and you will get the string containing 'Bearer tokenString'.\r\n\r\n26. how can you enable compression ?\r\n\r\nyou can use the module in your application after you initialize your server, like with Express. js: const compression = require('compression'); const express = require('express'); const app = express(); // compress all responses app. use(compression()); app\r\n\r\nCompression encodes information into a smaller size than the original, decreasing the bandwidth usage of an application and providing faster download speeds for clients.\r\n\r\n27. Purpose of app.route method : -\r\n\r\nThe app. route() function returns an instance of a single route, which you can then use to handle HTTP verbs with optional middleware. Use app. route() to avoid duplicate route names (and thus typo errors)\r\n\r\n28. how can you implement input validation ?\r\n\r\n**How to Validate and Sanitize an ExpressJS Form**\r\n\r\n- Install the express-validator library for use with an ExpressJS server.\r\n- Validate user input from a login form.\r\n- Sanitize user input from a login form.\r\n- Return validation errors to the user to improve the UX.\r\n\r\nSteps to use express-validator to implement the logic:\r\n\r\nInstall express-validator middleware. Create a validator. js file to code all the validation logic. Validate input by validateInputField: check(input field name) and chain on the validation equals() with '\r\n\r\n29. How do you handle cookies : -\r\n\r\n**Express.js Cookies Example**\r\n\r\n- var express = require('express');\r\n- var cookieParser = require('cookie-parser');\r\n- var app = express();\r\n- app.use(cookieParser());\r\n- app.get('/cookieset',function(req, res){\r\n- res.cookie('cookie\\_name', 'cookie\\_value');\r\n- res.cookie('company', 'javatpoint');\r\n- res.cookie('name', 'sonoo');\r\n\r\nvar cookieSession = require('cookie-session') var express = require('express') var app = express() app. use(cookieSession({ name: 'session', keys: ['key1', 'key2'] })) // Update a value in the cookie so that the set-cookie will be sent. // Only changes every minute so that it's not sent with every request.\r\n\r\n30. How do you implement Caching : -\r\n\r\n**Create an Express Node JS application**\r\n\r\n- npx express expressNodeCaching --hbs. BASIC.\r\n- npm i. Bash.\r\n- npm i node-cache npm i isomorphic-fetch. Bash.\r\n- app.use('/getCached', require('./routes/getCached')); Bash.\r\n- new nodecache({ stdTTL : 3599}); BASIC.\r\n- npm start. BASIC.\r\n31. Concept of view rendering : -\r\n\r\nThe function used to render an HTML view and to send the rendered HTML data to the client is known as the res. render() function. In Express, this function has two parameters in it, that are, Locals: It is an object whose properties would define the view. Callback: A callback function as an optional parameter.\r\n\r\nExpress has two methods to render views: app. render() , which is used to render the view and then pass the HTML to a callback function, and the more common res. render() , which renders the view locally and sends the HTML as a response.\r\n\r\n32. How can you implement logging ?\r\n\r\n**Process a User Login Form with ExpressJS**\r\n\r\n- Create an example HTML login form.\r\n- Set up GET routes using ExpressJS.\r\n- Set up a POST route to get form data into Node.\r\n- Learn about route paths and handlers.\r\n\r\nmorgan middleware\r\n\r\nThe morgan middleware can be used as many times as needed, enabling combinations like: Log entry on request and one on response. Log all requests to file, but errors to console.\r\n\r\n33. How can you handle async await : -\r\n\r\nAsync/Await is used to work with promises in asynchronous functions. It is basically syntactic sugar for promises. It is just a wrapper to restyle code and make promises easier to read and use. It makes asynchronous code look more like synchronous/procedural code, which is easier to understand. To use async/await, you need to use the async keyword when you define a request handler. (Note: These request handlers are also called “controllers”. I prefer calling them request handlers because “request handlers” is more explicit). Once you have the async keyword, you can await something immediately in your code\r\n\r\n34. Purpose of express.router() : -\r\n\r\nThe express. Router() function is used to create a new router object. This function is used when you want to create a new router object in your program to handle requests. Multiple requests can be easily differentiated with the help of the Router() function in Express.\r\n\r\n35. Websocket communication : -\r\n\r\nWebSocket is a full-duplex, bidirectional protocol as opposed to HTTP. Since it is a stateful protocol, it will maintain a connection between the client and server until one of them decides to break it. Because the connection is constant, real-time communication between the client and the server is possible\r\n\r\nTo open a websocket connection, we need to create new WebSocket using the special protocol ws in the url: let socket = new WebSocket ( \"ws://javascript.info\" ) ; There's also encrypted wss:// protocol. It's like HTTPS for websockets.\r\n\r\nIn theory, a server can handle up to 65,536 sockets per single IP address.\r\n\r\n36. Input sanitizer : -\r\n\r\nInput Sanitization with Validator.\r\n\r\nValidator. js is a library that provides various string validation and sanitization functions. We can leverage it to sanitize user input and remove potentially harmful characters. // Example: Sanitizing user input with Validator.js const validator = require('validator'); app.\r\n\r\n**How to Validate and Sanitize an ExpressJS Form**\r\n\r\n- Install the express-validator library for use with an ExpressJS server.\r\n- Validate user input from a login form.\r\n- Sanitize user input from a login form.\r\n- Return validation errors to the user to improve the UX.\r\n37. RBAC : -\r\n\r\nRole-based access control (RBAC) is a security approach that restricts network access and assigns permissions to users based on their role within an organization\r\n\r\n**How to Implement RBAC in 8 Steps**\r\n\r\n- Audit your current status. The first thing you need to do is audit your current status. ...\r\n- Define roles. ...\r\n- Query-level implementation. ...\r\n- Interface-level implementation. ...\r\n- Component-level implementation. ...\r\n- Testing roles and implementation. ...\r\n- Role assignment. ...\r\n- Monitoring and auditing.\r\n38. Session timeout : -\r\n\r\nThe session timeout determines the time a user can remain idle before the session is terminated and the user must log in again. The session time out includes administrators logged in through the portal service.\r\n\r\nTo expire the session after 1 min of inactivity in the express-session of Express. js we use expires: 60000 in the middleware function.\r\n\r\nlisten() to make sure our server is running. Here we set different options in session. In the cookie. maxAge is used to determine the specific time after which the session expires due to inactivity, and the secret is used to store the secret key for the session.\r\n\r\n39. SSR : -\r\n\r\nServer-side rendering (SSR) is a popular technique for rendering a normally client-side-only single-page app (SPA) on the server and then sending a fully rendered page to the client. The client's JavaScript bundle can then take over and the SPA can operate as normal.\r\n\r\nWith server-side rendering, you need a server side application which handles the initial rendering of your React application. The server application will import your React applications root component and render it into a HTML document which is then returned to the client.\r\n\r\n40. Throttling : -\r\n\r\nThrottling is the process of limiting the number of requests you (or your authorized developer) can submit to a given operation in a given amount of time.\r\n\r\nThrottling is often used to manage API traffic and prevent overloading—by ensuring that a server can handle requests from multiple clients without slowing down or crashing.\r\n\r\n41. Api versioning : -\r\n\r\nAPI versioning is a crucial aspect of developing and maintaining RESTful APIs, as it allows developers to introduce new features, fix bugs, and make changes without breaking the existing functionality for clients.\r\n\r\n**There are 5 main ways to version REST APIs:**\r\n\r\n- Versioning using URI Path. URI Path versioning strategy puts the version number in the path of the URI. ...\r\n- Versioning using Query Parameters. ...\r\n- Versioning using Custom Request Headers. ...\r\n- Versioning via Media type. ...\r\n- Versioning using multiple strategies.\r\n42. Pagination : -\r\n\r\nPagination is where a user can use links such as “next”, “previous”, and page numbers to navigate between pages that display one page of results at a time. Pagination in Node. js involves splitting a large dataset into smaller chunks, known as pages, and displaying them one page at a time.\r\n\r\nAfter installing the express and mongoose packages, we can build a primary express server and connect to our MongoDB database, gradually making the pagination. const express = require(\"express\"); const mongoose = require(\"mongoose\"); const app = express(); mongoose . connect(\"mongodb://localhost:27017/pgtest\")\r\n\r\n43. Can WebSocket and HTTP run on same port?\r\n\r\nNginx will let you receive both your HTTP and websocket traffic on a single domain and port, and then forward each one on to the correct app. It can do this because websockets starts out as a regular HTTP GET request\r\n\r\n44. SSE : -\r\n\r\nServer-Sent Events (SSE) is a Web standard that allows a server application to send data to the client. Concretely, a browser can subscribe to a stream of events generated by a server, receiving updates whenever a new event occurs. This feature makes it possible to build a more reactive application\r\n\r\nThe server-sent events streaming can be started by the client's GET request to Server. Accept: text/event-stream indicates the client waiting for event stream from the server, Cache-Control: no-cache indicates that disabling the caching and Connection: keep-alive indicates the persistent connection.\r\n\r\n45. how do you handle file download ?\r\n\r\ndownload() function which takes two parameters the path of the file and a function to handle if any error occurs. Downloading multiple files as a zipped folder for this we would use the “express-zip” npm package which creates a zipped folder using the zip() function which takes an array of objects as a parameter.\r\n\r\n46. Convert json int string : -\r\n\r\nThe JSON.stringify() static method converts a JavaScript value to a JSON string, optionally replacing values if a replacer function is specified or optionally including only the specified properties if a replacer array is specified\r\n\r\n47. Create http server using express : -\r\n\r\nconst express = require('express')\r\n\r\nconst app = express()\r\n\r\nconst port = 3000\r\n\r\napp.get('/', (req, res) =\u003e {\r\n\r\nres.send('Hello World!')\r\n\r\n})\r\n\r\napp.listen(port, () =\u003e {\r\n\r\nconsole.log(`Example app listening on port ${port}`) })\r\n\r\n48. Templates : -\r\n\r\nTemplate engine is a part of Express that enables us to use static files in our applications. Template engine converts variables to values and changes the template to HTML files to send to the client. The default template engine of Express is Jade, but EJS is the most commonly used engine\r\n\r\n**—MONGO-DB—**\r\n\r\n1. WHAT IS MONGODB ?\r\n\r\nMongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. As a document database, MongoDB makes it easy for developers to store structured or unstructured data. It uses a JSON-like format to store documents.\r\n\r\n2. Features : -\r\n- Support ad hoc queries. ...\r\n- Indexing. ...\r\n- Replication. ...\r\n- Duplication of data. ...\r\n- Load balancing. ...\r\n- Supports map reduce and aggregation tools.\r\n- Uses JavaScript instead of Procedures.\r\n- It is a schema-less database written in C++.\r\n3. Advantage and disadvantage : -\r\n- Advantages of MongoDB. Performance Levels. High Speed and Higher Availability. Simplicity. Easy Environment and a Quick Set-up. Flexibility. Sharding. Scalability. ...\r\n- Disadvantages of MongoDB. Transactions. Joins. Indexing. Limited Data Size and Nesting. Duplicates. High Memory Usage.\r\n4. What is a document ?\r\n\r\nA record in MongoDB is a document, which is a data structure composed of field and value pairs. MongoDB documents are similar to JSON objects. The values of fields may include other documents, arrays, and arrays of documents.\r\n\r\n5. Collection : -\r\n\r\nA collection is a grouping of MongoDB documents. Documents within a collection can have different fields. A collection is the equivalent of a table in a relational database system. A collection exists within a single database.\r\n\r\n6. Replica set : -\r\n\r\nA replica set in MongoDB is a group of mongod processes that maintain the same data set. Replica sets provide redundancy and high availability, and are the basis for all production deployments. This section introduces replication in MongoDB as well as the components and architecture of replica sets.\r\n\r\n7. Primary replica set : -\r\n\r\nThe primary is the only member in the replica set that receives write operations. MongoDB applies write operations on the primary and then records the operations on the primary's oplog. Secondary members replicate this log and apply the operations to their data sets.\r\n\r\nYou can force a replica set member to become primary by giving it a higher members[n]. priority value than any other member in the set. Optionally, you also can force a member never to become primary by setting its members[n]. priority value to 0 , which means the member can never seek election as primary.\r\n\r\n8. Secondary replica set : -\r\n\r\nA secondary maintains a copy of the primary's data set. To replicate data, a secondary applies operations from the primary's oplog to its own data set in an asynchronous process. [1] A replica set can have one or more secondaries.\r\n\r\n9. Replica set oplog : -\r\n\r\nThe oplog (operations log) is a special capped collection that keeps a rolling record of all operations that modify the data stored in your databases. Unlike other capped collections, the oplog can grow past its configured size limit to avoid deleting the majority commit point .\r\n\r\n10. Sharding : -\r\n\r\nSharding is a method for distributing data across multiple machines. MongoDB uses sharding to support deployments with very large data sets and high throughput operations. Database systems with large data sets or high throughput applications can challenge the capacity of a single server.\r\n\r\n11. What is the difference between sharding and partitioning in MongoDB?\r\n\r\n    Sharding and partitioning are both about breaking up a large data set into smaller subsets. The difference is that sharding implies the data is spread across multiple computers while partitioning does not. Partitioning is about grouping subsets of data within a single database instance.\r\n\r\n12. Indexing : -\r\n\r\nIndexes are data structures that support the efficient execution of queries in MongoDB. They contain copies of parts of the data in documents to make queries more efficient. Without indexes, MongoDB must scan every document in a collection to find the documents that match each query.\r\n\r\n13. Types of indexing : -\r\n1. **Single field Index:** A single field index means index on a single field of a document. This index is helpful for fetching data in ascending as well as descending order.\r\n1. **Compound Index:** This is a user-defined index supported in MongoDB where multiple fields can be indexed. To create a compound index, the query is db.collection.createIndex( { \u003cfieldname1: 1/-1, fieldname2: 1/-1, … }). Here, the compound index query is similar to a normal index query but with multiple fields.\r\n1. **MultiKey Indexing:** Now this is one indexing that works on values stored in an array. Here, for each element in an array, MongoDB creates an index.\r\n1. **Text Indexing:** For the purpose of searching the string content or an array of string, ina collection, indexing over the test is supported in MongoDB.\r\n1. **Hashed Index:** Using the hashes of the indexed fields’ values, Hashed Indexing in MongoDB is achieved. MongoDB also supports sharding based on the hash. The aim is to reduce the size of the index. Range queries are not supported here.\r\n14. Mapreduce : -\r\n\r\nMap-reduce is a data processing paradigm for condensing large volumes of data into useful aggregated results. To perform map-reduce operations, MongoDB provides the mapReduce database command.\r\n\r\nMapReduce is a programming model and an associated implementation for processing and generating big data sets with a parallel, distributed algorithm on a cluster.\r\n\r\n15. Aggregation and aggregation pipeline : -\r\n\r\nAggregation is a way of processing a large number of documents in a collection by means of passing them through different stages. The stages make up what is known as a pipeline. The stages in a pipeline can filter, sort, group, reshape and modify documents that pass through the pipeline.\r\n\r\nThe aggregation pipeline refers to a specific flow of operations that processes, transforms, and returns results. In a pipeline, successive operations are informed by the previous result. Let's take a typical pipeline: Input -\u003e $match -\u003e $group -\u003e $sort -\u003e output.\r\n\r\nAggregation operations allow you to group, sort, perform calculations, analyze data, and much more. Aggregation pipelines can have one or more \"stages\". The order of these stages are important. Each stage acts upon the results of the previous stage.\r\n\r\n16. Update vs save : -\r\n\r\nMongoDB's update() and save() methods are used to update document into a collection. The update() method updates the values in the existing document while the save() method replaces the existing document with the document passed in save() method.\r\n\r\n17. gridFs : -\r\n\r\nGridFS is the MongoDB specification for storing and retrieving large files such as images, audio files, video files, etc. It is kind of a file system to store files but its data is stored within MongoDB collections. GridFS has the capability to store files even greater than its document size limit of 16MB.\r\n\r\n18. Primary vs secondary key : -\r\n\r\nA primary key is the field in a database that is the primary key used to uniquely identify a record in a database. A secondary key is an additional key, or alternate key, which can be use in addition to the primary key to locate specific data.\r\n\r\n19. how does mongodb ensure data consistency ?\r\n\r\nIf the primary member fails, MongoDB preserves consistency by suspending writes until a new primary is elected. Any writes to the failed primary that have not been replicated are rolled back when it returns to the cluster as a secondary.\r\n\r\nMongoDB allows multiple clients to read and write the same data. To ensure consistency, MongoDB uses locking and concurrency control to prevent clients from modifying the same data simultaneously. Writes to a single document occur either in full or not at all, and clients always see consistent data.\r\n\r\n20. how does mongodb ensure high availiability of data ?\r\n\r\nReplication is performed in MongoDB to maintain data redundancy and high availability. It is performed by creating multiple copies of your data across multiple servers. Replication is achieved by the replica sets that contain primary and secondary nodes.\r\n\r\n21. how does mongodb handle schema changes ?\r\n\r\nYou can use MongoDB's flexible schema model, which supports differently shaped documents in the same collection, to gradually update your collection's schema. As you update your schema model, the Schema Versioning pattern allows you to track these updates with version numbers.\r\n\r\n22. How transactions are handled in MongoDB?\r\n\r\nTransactions use the transaction-level write concern to commit the write operations. Write operations inside transactions must be issued without explicit write concern specification and use the default write concern. At commit time, the writes are then commited using the transaction-level write concern.\r\n\r\nThe locks in MongoDB are acquired at the transaction level. However only write operations will lock the associated document. Read operations will not lock them. Hence the locks will be released only when the transaction is completed.\r\n\r\n23. Role of mongodb process : -\r\n\r\nMongoDB grants access to data and commands through role-based authorization and provides built-in roles that provide the different levels of access commonly needed in a database system. You can additionally create user-defined roles. A role grants privileges to perform sets of actions on defined resources.\r\n\r\nWhat is the role of the Mongod process in MongoDB?\r\n\r\nmongod is the primary daemon process for the MongoDB system. It handles data requests, manages data format, and performs background management operations. This document provides a complete overview of all command line options for mongod . These options are primarily useful for testing purposes.\r\n\r\n24. Role of mongodb shell : -\r\n\r\nThe mongo shell is an interactive JavaScript interface to MongoDB. You can use the mongo shell to query and update data as well as perform administrative operations.\r\n\r\n25. Role of mongodb handle security : -\r\n\r\nMongoDB offers built-in security controls for all your data – with databases managed in a customer environment or MongoDB Atlas, a fully-managed cloud service. MongoDB enables enterprise-grade security features and simplifies deploying and managing your databases.\r\n\r\n**MongoDB Security Best Practices**\r\n\r\n- Create Separate Security Credentials. To enable authentication, create login credentials for each user or process that accesses MongoDB. ...\r\n- Use Role-Based Access Control. ...\r\n- Encrypt Your Data. ...\r\n- Use the Official MongoDB Packages. ...\r\n- Auditing and Logs. ...\r\n- Apply MongoDB Security Fixes.\r\n26. Join vs lookup : -\r\n\r\nMongoDB Joins are performed by Lookup. It performs a Left Outer Join to two or more Collections. But Lookup is only permitted in Aggregate operations. This is like a pipeline that performs query, filter and group operations.\r\n\r\nGeneraly, sorted joiner is more effective on flat files than lookup, because sorted joiner uses merge join and cashes less rows. Lookup cashes always whole file. If the file is not sorted, it can be comparable.\r\n\r\n27. Backup and recovery : -\r\n\r\nThe MongoDB Backup and Restore Tool allows you to encapsulate the state of a cluster and return to that state at any time. This helps protect you from data loss, as you can restore a database to a MongoDB instance using a created copy of that instance.\r\n\r\n- [Step 1: Create Direct Backups Using Mongodump](https://hevodata.com/learn/mongodump/#Step1)\r\n- [Step 2: Backup a Remote MongoDB Instance](https://hevodata.com/learn/mongodump/#Step2)\r\n- [Step 3: Backup a Secure MongoDB Instance](https://hevodata.com/learn/mongodump/#Step3)\r\n- [Step 4: Select Databases \u0026 Collections](https://hevodata.com/learn/mongodump/#Step4)\r\n- [Step 5: Change the Backup Directory](https://hevodata.com/learn/mongodump/#Step5)\r\n- [Step 6: Create an Archive File](https://hevodata.com/learn/mongodump/#Step6)\r\n- [Step 7: Compress the MongoDB Backup](https://hevodata.com/learn/mongodump/#Step7)\r\n- [Step 8: Restore Database](https://hevodata.com/learn/mongodump/#Step8)\r\n\r\n●\r\n\r\n28. Some alternative of mongodb : -\r\n\r\nSome of the best MongoDB alternatives include Redis, Apache Cassandra, RethinkDB, DynamoDB, OrientDB, CouchDB, and ArangoDB.\r\n\r\n29. How does mongodb store data ?\r\n\r\nMongoDB stores data objects in collections and documents instead of the tables and rows used in traditional relational databases. Collections comprise sets of documents, which are equivalent to tables in a relational database. Documents consist of key-value pairs, which are the basic unit of data in MongoDB.\r\n\r\n30. how mongodb different from sql and better than mysql:\r\n\r\nMongoDB is a more dynamic and complicated choice that is appropriate for hierarchical data because of its fundamental properties, as opposed to a SQL Database, which is still more predetermined and appropriate for other types of data storage. Hence this is the reason MongoDB outshines the SQL database.\r\n\r\nCompared to MySQL, MongoDB is easier to work with. Since there is no need to define schemas beforehand, it gives a chance to users with minimal technical knowledge to immediately start storing data in it. You can use the database with various programming languages, including C, C# and .\r\n\r\n31. Different data models : -\r\n\r\nMongoDB provides two types of data models: — Embedded data model and Normalized data model.\r\n\r\n32. Horizontal and vertical scaling : -\r\n\r\nHorizontal scaling involves adding additional servers and partitioning the system dataset and load over those servers. Vertical scaling involves expanding the resources used by a single server/replica set.\r\n\r\n33. Replication and sharding : -\r\n\r\nIn simple terms, MongoDB replication is the process of creating a copy of the same data set in more than one MongoDB server. This can be achieved by using a Replica Set. A replica set is a group of MongoDB instances that maintain the same data set and pertain to any mongod process.\r\n\r\nReplication can be simply understood as the duplication of the data-set whereas sharding is partitioning the data-set into discrete parts. By sharding, you divided your collection into different parts. Replicating your database means you make imagers of your data-set.1\r\n\r\n34. What is the \\_id field type in MongoDB?\r\n\r\nArchitecturally, by default the \\_id field is an ObjectID, one of MongoDB's BSON types. The ObjectID is the primary key for the stored document and is automatically generated when creating a new document in a collection\r\n\r\n35. what are some utilities for backup and restoring ?\r\n\r\nMongoDB supplies two utilities to manage logical backups: Mongodump and Mongorestore. The Mongodump command dumps a backup of the database into the “. bson” format, and this can be restored by providing the logical statements found in the dump file to the databases.\r\n\r\n36. Role of profiler : -\r\n\r\nThe database profiler collects detailed information about Database Commands executed against a running mongod instance. This includes CRUD operations as well as configuration and administration commands. The profiler writes all the data it collects to a system.\r\n\r\n37. can we use regular expression in mongodb ?\r\n\r\nMongoDB provides the functionality to search a pattern in a string during a query by writing a regular expression. A regular expression is a generalized way to match patterns with sequences of characters. MongoDB uses Perl compatible regular expressions(PCRE) version 8.42 along with UTF-8 support.\r\n\r\n38. difference between $all and $in operator : -\r\n\r\n$all operator retrieves all the documents which contains the subset of the values we pass. The subset might be in any order. $in operator retrieves all the documents which contains the either of the values we pass.\r\n\r\n$all operator retrieves all the documents which contains the subset of the values we pass. The subset might be in any order. $in operator retrieves all the documents which contains the either of the values we pass.\r\n\r\nThe $in operator is used to select documents in which the field's value equals any of the given values in the array. You can use this operator in methods like find(), update(), etc., according to your requirements.\r\n\r\n39. Add more slaves to replica : -\r\n- Prepare the Data Directory: This is about creating a data directory for the new member and manually copying data to it from an existing member.\r\n- Add a Member to an Existing Replica Set: 2.1 Start the new member's mongod instance, pointing to the new data directory. 2.2 Connect to the replica-set's primary.\r\n\r\n●\r\n\r\n40. Some application of mongodb : -\r\n\r\nIt is used to store a massive amount of demographic and biometric data. For example, India's Unique Identification project, Aadhar is using MongoDB as its database to store a massive amount of demographic and biometric data of more than 1.2 billion Indians.\r\n\r\n41. What is mongoose ?\r\n\r\nMongoose is a MongoDB ODM i.e (Object database Modelling) that used to translate the code and its representation from MongoDB to the Node. js server. Advantages of Mongoose module: Collection validation of the MongoDB database can be done easily.\r\n\r\nMongoDB is a document-oriented NoSQL database, while Mongoose is an Object Data Modeling (ODM) library for Node. js that provides a higher-level abstraction layer on top of MongoDB, allowing developers to define data models using a schema-based approach.\r\n\r\n42. Mongodb function : -\r\n\r\nA MongoDB Function can be used to read, insert, update, or delete data from your MongoDB database. When you connect your database to Internal, basic functions corresponding to each collection in your database are automatically generated for you.\r\n\r\n43. which mongodb api to use ?\r\n\r\nThe MongoDB Data API can be used to query and update data in a MongoDB database without the need for language specific drivers. Language drivers should be used when possible, but the MongoDB Data API comes in handy when drivers are not available or drivers are overkill for the application.\r\n\r\nMongoDB RESTful API is simple to set up and allows you to store and retrieve documents, making it great for Unstructured Data.\r\n\r\n44. What is storage engine ?\r\n\r\nThe storage engine is the component of the database that is responsible for managing how data is stored, both in memory and on disk. MongoDB supports multiple storage engines, as different engines perform better for specific workloads.\r\n\r\n45. Skip () : -\r\n\r\nMongoDB skip() is used when we required a certain number of results after a certain number of documents simultaneously we have use skip method in MongoDB. If we want to skip a certain number of documents from the collection, skip method will skip the specified documents that we have used with the MongoDB skip method\r\n\r\n46. Text search : -\r\n\r\nFor self-managed (non-Atlas) deployments, MongoDB's text search capability supports query operations that perform a text search of string content. To perform text search, MongoDB uses a text index and the $text operator.\r\n\r\n47. Command syntax : -\r\n\r\nTo run a command against the current database, use db.runCommand() : db. runCommand( { \u003ccommand\u003e } ) To run an administrative command against the admin database, use db.adminCommand() : db.\r\n\r\nWhat is the syntax of find command in MongoDB? Syntax: db. collection\\_name. find(query, projection)\r\n\r\n48. How does NoSQL DB budget memory?\r\n\r\nAns: The Replication Node manages the data in a NoSQL DB store and is the main consumer of memory. The Java heap and cache size used by the Replication Node can be important performance factor\r\n\r\n49. Syntax to create drop collection : -\r\n\r\n**First, check the available collections into your database mydb.**\r\n\r\n- \u003euse mydb switched to db mydb \u003eshow collections mycol mycollection system. indexes tutorialspoint \u003e Now drop the collection with the name mycollection.\r\n- \u003edb. mycollection. drop() true \u003e ...\r\n- \u003eshow collections mycol system. indexes tutorialspoint \u003e\r\n\r\n●\r\n\r\nUse of Drop Collection in MongoDB\r\n\r\nTo remove a collection completely, use the db. collection. drop() method and drop the entire collection, including the indexes and then reuse the collection.\r\n\r\n50. Store capacity in a single mongodb document : -\r\n\r\nThe maximum size an individual document can be in MongoDB is 16MB with a nested depth of 100 levels.\r\n\r\nWe often need to store files in our databases, but mongoDB doesn't let you store any file larger than 16 Mb in a normal document. Instead, MongoDB has a functionality specifically for storing large files and it goes by the name GridFS. GridFS divides the file into chunks and then stores them in the database.\r\n\r\n51. BSON : -\r\n\r\nBSON, or Binary JSON, is the data format that MongoDB uses to organize and store data. This data format includes all JSON data structure types and adds support for types including dates, different size integers, ObjectIds, and binary data.\r\n\r\n52. Supported datatypes in mongodb : -\r\n- String. One of the most basic and widely used data types is the string. ...\r\n- Integer. Numeric values are stored using the integer data type. ...\r\n- Double. Numeric numbers containing 8 bytes (64-bit IEEE 754 floating point) floating-point are stored using the double data type. ...\r\n- Boolean. ...\r\n- Array. ...\r\n- Object. ...\r\n- Date. ...\r\n- Timestamp.\r\n- Null\r\n- Binary\r\n53. pretty() method : -\r\n\r\npretty() method is used to configure the cursor to display results in an easy-to-read format. Syntax: cursor.pretty() The pretty() method has the following prototype form: db.collection.find(\u003cquery\u003e).pretty()\r\n\r\n54. is mongodb supported foreign key and primary key relationship ?\r\n\r\n    No. MongoDB doesn't support primary key-foreign key relationship. MongoDB has \\_id key field for every document that uniquely identifies the particular document.\r\n\r\n55. CURD : -\r\n\r\nThe basic methods of interacting with a MongoDB server are called CRUD operations. CRUD stands for Create, Read, Update, and Delete. These CRUD methods are the primary ways you will manage the data in your databases.\r\n\r\n56. difference between insert, insertone and insertmany in mongodb ?\r\n\r\n    With insertOne you can insert one document into the collection. insertMany accepts an array of documents and these are inserted. The insert (the method from older versions) takes a single document by default, and there is an option to insert multiple documents supplied as an array.\r\n\r\n57. How to display all the element ?\r\n\r\nTo obtain a list of MongoDB collections, we need to use the Mongo shell command show collections . This command will return all collections created within a MongoDB database.\r\n\r\n58. Bulk write operation : -\r\n\r\nBulk write operations affect a single collection. MongoDB allows applications to determine the acceptable level of acknowledgement required for bulk write operations. The db. collection. bulkWrite() method provides the ability to perform bulk insert, update, and delete operations.\r\n\r\n59. Set () : -\r\n\r\nThe $set operator replaces the value of a field with the specified value. The $set operator expression has the following form: { $set: { \u003cfield1\u003e: \u003cvalue1\u003e, ... } } To specify a \u003cfield\u003e in an embedded document or in an array, use dot notation.\r\n\r\n60. Does MongoDB support collection joins?\r\n\r\nJoin Collections\r\n\r\nMongoDB is not a relational database, but you can perform a left outer join by using the $lookup stage. The $lookup stage lets you specify which collection you want to join with the current collection, and which fields that should match.\r\n\r\n61. how relationship maintained in mongodb ?\r\n\r\nIn MongoDB, one-to-one, one-to-many, and many-to-many relations can be implemented in two ways: Using embedded documents. Using the reference of documents of another collection.\r\n\r\n62. model one to one relationship in mongodb : -\r\n\r\nIn this one-to-one relationship between patron and address data, the address belongs to the patron . In the normalized data model, the address document contains a reference to the patron document. With the embedded data model, your application can retrieve the complete patron information with one query.\r\n\r\n63. Model one to many relationship in mongodb : -\r\n\r\nWe can also perform a one-to-many relationship using the document reference model. In this model, we maintain the documents separately but one document contains the reference of the other documents. Now retrieving data from these different documents is cumbersome.\r\n\r\n64. Different ways to model tree structure with mongodb : -\r\n- Model Tree Structures with Parent References.\r\n- Model Tree Structures with Child References.\r\n- Model Tree Structures with an Array of Ancestors.\r\n- Model Tree Structures with Materialized Paths.\r\n- Model Tree Structures with Nested Sets.\r\n\r\n**Creating a tree node**\r\n\r\n- Find parent node document to get the \"ancestors\" for our new node.\r\n- Save the id of parent node and ancestor nodes when adding a new node.\r\n- Add the id of the new node to the parent node's children field.\r\n\r\n●\r\n\r\n64. limit() : -\r\n\r\nIn MongoDB, the limit() method limits the number of records or documents that you want. It basically defines the max limit of records/documents that you want. Or in other words, this method uses on cursor to specify the maximum number of documents/ records the cursor will return.\r\n\r\n65. Sort () : -\r\n\r\nMongoDB can perform sort operations on a single-field index in ascending or descending order. In compound indexes, the sort order determines whether the index can be sorted. The sort keys must be listed in the same order as defined in the index.\r\n\r\n66. Create index : -\r\n\r\nIndexes support efficient execution of queries in MongoDB. If your application is repeatedly running queries on the same fields, you can create an index on those fields to improve performance for those queries. To create an index, use the createIndex() shell method or equivalent method for your driver.\r\n\r\n67. Mongodb projection : -\r\n\r\nMongoDB projection is a powerful tool that can be used to extract only the fields you need from a document—not all fields. It enables you to: Project concise and transparent data. Filter the data set without impacting the overall database performance\r\n\r\n68. which index is created by mongodb in every collection ?\r\n\r\n    \\_id index\r\n\r\n    MongoDB creates a unique index on the \\_id field during the creation of a collection. The \\_id index prevents clients from inserting two documents with the same value for the \\_id field.\r\n\r\n69. component of sharded cluster in mongodb : -\r\n\r\nA sharded cluster in MongoDB is a collection of datasets distributed across many shards (servers) in order to achieve horizontal scalability and better performance in read and write operations. Sharding is very useful for collections that have a lot of data and high query rates.\r\n\r\n- Sharded Cluster Components. Shards. ...\r\n- Shard Keys.\r\n- Hashed Sharding. Deploy Sharded Cluster using Hashed Sharding.\r\n- Ranged Sharding. Deploy Sharded Cluster using Ranged Sharding.\r\n- Tag Aware Sharding. Manage Shard Tags. ...\r\n- Data Partitioning with Chunks. Create Chunks in a Sharded Cluster. ...\r\n- Balancer. ...\r\n- Administration.\r\n70. Shard key : -\r\n\r\nThe shard key is either a single indexed field or multiple fields covered by a compound index that determines the distribution of the collection's documents among the cluster's shards.\r\n\r\n71. Accumulator operator : -\r\n\r\nAccumulators are operators that maintain their state (e.g. totals, maximums, minimums, and related data) as documents progress through the pipeline. Use the $accumulator operator to execute your own JavaScript functions to implement behavior not supported by the MongoDB Query Language.\r\n\r\n72. What is the use of $project in MongoDB?\r\n\r\nThe $project takes a document that can specify the inclusion of fields, the suppression of the \\_id field, the addition of new fields, and the resetting of the values of existing fields. Alternatively, you may specify the exclusion of fields.\r\n\r\n73. What is the use of $match in MongoDB ?\r\n\r\n$match. Filters the documents to pass only the documents that match the specified condition(s) to the next pipeline stage.\r\n\r\nWhat is the use of match in mongoose?\r\n\r\nmatch() function of the Mongoose API is used to find the existing documents in the database that matches the conditions mentioned in the arguments of the API.\r\n\r\n74. Why is \u0026group used in MongoDB?\r\n\r\n$group. The $group stage separates documents into groups according to a \"group key\". The output is one document for each unique group key. A group key is often a field, or group of fields.\r\n\r\nWe are also using the group method to group the documents in MongoDB. Using the group method we are grouping by two or multiple field in MongoDB. Group method will accept the single document from the collection. Basically group method is similar to group by clause which was used in other SQL databases.\r\n\r\n75. What is the use of $unwind in MongoDB ?\r\n\r\nThe $unwind operator in MongoDB is used to deconstruct an array field into multiple documents. It creates a new document for each element in the array, effectively \"unwinding\" the array.\r\n\r\n76. What is the use of $lookup in MongoDB ?\r\n\r\n$lookup performs an equality match on the localField to the foreignField from the documents of the from collection. If an input document does not contain the localField , the $lookup treats the field as having a value of null for matching purposes.\r\n\r\n77. feature to do safe backup in MongoDB : -\r\n\r\nIn general, if using filesystem based backups for MongoDB Enterprise 4.2+, use the \"hot\" backup feature, if possible. For MongoDB Enterprise versions 4.0 and earlier, if you use AES256-GCM encryption mode, do not make copies of your data files or restore from filesystem snapshots (\"hot\" or \"cold\").\r\n\r\nMongoDB Backup and Restore Best Practices\r\n\r\nMongoDB uses both regular JSON and Binary JSON (BSON) file formats. It's better to use BSON when backing up and restoring. While JSON is easy to work with, it doesn't support all of the data types that BSON supports, and it may lead to the loss of fidelity.\r\n\r\n78. What is the backup method of MongoDB?\r\n\r\n**MongoDB Backup Methods**\r\n\r\n- Back Up with Atlas.\r\n- Back Up with MongoDB Cloud Manager or Ops Manager.\r\n- Back Up by Copying Underlying Data Files.\r\n- Back Up with mongodump.\r\n79. What is configuration in MongoDB?\r\n\r\nThe MongoDB configuration file contains settings that are equivalent to the command-line options mongod and mongos. Using a MongoDB configuration file simplifies the management of mongod and mongos options, especially in large-scale deployments.\r\n\r\n80. Use of Ops manager : -\r\n\r\nOps Manager is the self-hosted management platform that enables you to deploy, monitor, back up, and scale MongoDB on your own infrastructure. Identify issues before they become emergencies and streamline operations.\r\n\r\n- Configure Deployment to Have Limited Internet Access. ...\r\n- Enable Backing Database Monitoring.\r\n- Deploy a Highly Available Application.\r\n- Deploy Highly Available Backups.\r\n- Configure Ops Manager to Monitor Large Deployments.\r\n- Assign Snapshot Stores to Specific Data Centers.\r\n- Pass Outgoing Traffic through HTTP Proxy.\r\n\r\n*THANK YOU -*\r\n"}},"__N_SSG":true},"page":"/posts/[slug]","query":{"slug":"NODE-EXPRESS-MONGO"},"buildId":"zp6Cpz-VBs-8s_vSqyqjj","isFallback":false,"gsp":true,"scriptLoader":[]}</script><div id="notifications"></div></body></html>
