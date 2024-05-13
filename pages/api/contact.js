@@ -25,10 +25,13 @@ async function handler(req, res) {
     let client;
 
     // z9zdBDak1GPfu0l0
+    require('dotenv').config(); 
+
+    const { MongoClient } = require('mongodb');
 
     try {
       client = await MongoClient.connect(
-        'mongodb+srv://akshaysing975:z9zdBDak1GPfu0l0@cluster0.l4znmnw.mongodb.net/my-site?retryWrites=true&w=majority'
+        process.env.MONGODB_URI
       );
     } catch (error) {
       res.status(500).json({ message: 'Could not connect to database.' });
